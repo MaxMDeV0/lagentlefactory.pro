@@ -1,0 +1,28 @@
+# WordPress core
+/wordpress/wp-admin/
+/wordpress/wp-includes/
+/wordpress/wp-*.php
+/wordpress/xmlrpc.php
+/wordpress/readme.html
+/wordpress/license.txt
+
+# wp-content : tout ignorer sauf ce qu'on autorise
+/wordpress/wp-content/uploads/*
+/wordpress/wp-content/cache/*
+/wordpress/wp-content/upgrade/*
+/wordpress/wp-content/plugins/*
+/wordpress/wp-content/themes/*
+/wordpress/wp-content/languages/*
+/wordpress/wp-content/index.php
+!/wordpress/wp-content/themes/lgf_marqueblanche/
+
+/wordpress/.htaccess
+/wordpress/index.php
+# Fichiers sensibles
+.env
+wp-config.php
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
