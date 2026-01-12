@@ -31,23 +31,23 @@ const Clients: React.FC = () => {
   const projects = [
     {
       name: 'GT Logistics',
-      projectImg: 'media/homme-mariniere-lgf.png',
-      logo: 'media/gt-logistics-logo.svg'
+      projectImg: 'public/media/homme-mariniere-lgf.png',
+      logo: 'public/media/gt-logistics-logo.svg'
     },
     {
       name: "Moulin d'Ascq",
-      projectImg: 'media/bonnets-famille-lgf.png',
-      logo: 'media/moulin-dascq-logo.svg'
+      projectImg: 'public/media/bonnets-famille-lgf.png',
+      logo: 'public/media/moulin-dascq-logo.svg'
     },
     {
       name: 'Rexel',
-      projectImg: 'media/boutique-la-gentle-factory.png',
-      logo: 'media/rexel-logo.svg'
+      projectImg: 'public/media/boutique-la-gentle-factory.png',
+      logo: 'public/media/rexel-logo.svg'
     },
     {
       name: 'FFE',
-      projectImg: 'media/association-ffe-marque-blanche-lgf.png',
-      logo: 'media/ffe-logo.svg'
+      projectImg: 'public/media/association-ffe-marque-blanche-lgf.png',
+      logo: 'public/media/ffe-logo.svg'
     }
   ];
 

@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <Link to="/" className="inline-flex items-center">
-              <img src="./media/logo.svg" alt="La Gentil Factory" className="h-16 md:h-20 w-auto" />
+              <img src="./public/media/logo.svg" alt="La Gentil Factory" className="h-16 md:h-20 w-auto" />
             </Link>
           </div>
 

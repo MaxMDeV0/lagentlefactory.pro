@@ -3,7 +3,7 @@ import React from "react";
 const SemiHero: React.FC = () => (
   <section className="relative min-h-[40vh] flex items-center justify-center bg-primary-blue text-white py-20 overflow-hidden">
     <img
-      src="./media/atelier-lgf.jpg"
+      src="./public/media/atelier-lgf.jpg"
       alt="Atelier textile"
       className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none"
       style={{ zIndex: 0 }}

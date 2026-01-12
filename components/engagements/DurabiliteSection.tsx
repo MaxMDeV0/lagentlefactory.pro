@@ -37,7 +37,7 @@ const DurabiliteSection: React.FC = () => (
         <Link to="/fabrication/solutions" className="inline-block bg-cta-red hover:bg-white text-white hover:text-primary-blue transition-all font-bold rounded-full px-8 py-4 uppercase text-lg shadow-lg">Découvrir nos solutions</Link>
       </div>
       <div>
-        <img src="./media/durabilite-textile.jpg" alt="Durabilité textile" className="rounded-2xl shadow-lg w-full object-cover" />
+        <img src="./public/media/durabilite-textile.jpg" alt="Durabilité textile" className="rounded-2xl shadow-lg w-full object-cover" />
       </div>
     </div>
   </section>

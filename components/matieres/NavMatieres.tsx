@@ -1,10 +1,10 @@
 import React from "react";
 
 const familles = [
-  { icon: "coton", label: "Coton biologique", bg: "/media/famille-coton.jpg" },
-  { icon: "recycle", label: "Fibres recyclées", bg: "/media/famille-recycle.jpg" },
-  { icon: "technique", label: "Matières techniques", bg: "/media/famille-technique.jpg" },
-  { icon: "lin", label: "Lin français", bg: "/media/famille-lin.jpg" },
+  { icon: "coton", label: "Coton biologique", bg: "/public/media/famille-coton.jpg" },
+  { icon: "recycle", label: "Fibres recyclées", bg: "/public/media/famille-recycle.jpg" },
+  { icon: "technique", label: "Matières techniques", bg: "/public/media/famille-technique.jpg" },
+  { icon: "lin", label: "Lin français", bg: "/public/media/famille-lin.jpg" },
 ];
 
 const NavMatieres: React.FC<{ active: number | null, onSelect: (i: number) => void, icons: any }> = ({ active, onSelect, icons }) => (

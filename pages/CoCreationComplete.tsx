@@ -156,19 +156,19 @@ const avantages = [
 
 const casPratiques = [
   {
-    img: "/media/homme-mariniere-lgf.png",
+    img: "/public/media/homme-mariniere-lgf.png",
     title: "Marque de streetwear",
     desc: "Hoodie technique recyclé, 100% conçu sur-mesure. 8 semaines de développement, 300 pièces produites.",
     result: "100% matières recyclées, délai respecté, forte différenciation."
   },
   {
-    img: "/media/equipe-lgf-escalier.png",
+    img: "/public/media/equipe-lgf-escalier.png",
     title: "Entreprise tech",
     desc: "Veste corporate premium, branding subtil, matières techniques. 12 semaines, 120 vestes.",
     result: "Satisfaction client 9,7/10, image employeur renforcée."
   },
   {
-    img: "/media/boutique-la-gentle-factory.png",
+    img: "/public/media/boutique-la-gentle-factory.png",
     title: "Boutique concept",
     desc: "Collection capsule exclusive (3 pièces), storytelling, expérience client. 14 semaines, 80 sets.",
     result: "Ventes +30%, fidélisation accrue."
@@ -213,7 +213,7 @@ const CoCreationComplete: React.FC = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO */}
-      <section className="relative min-h-[70vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/media/banner.png')" }}>
+      <section className="relative min-h-[70vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/public/media/banner.png')" }}>
         <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
         <div className="relative z-10 text-center text-white px-4 py-24 flex flex-col items-center justify-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Solution de co-création complète</h1>

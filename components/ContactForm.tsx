@@ -26,13 +26,13 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section id="devis" className="relative bg-cover bg-center py-24 min-h-[700px] flex items-center" style={{ backgroundImage: "url('media/equipe-lgf-escalier.png')" }}>
+    <section id="devis" className="relative bg-cover bg-center py-24 min-h-[700px] flex items-center" style={{ backgroundImage: "url('public/media/equipe-lgf-escalier.png')" }}>
       {/* Overlay for better readability on mobile */}
       <div className="absolute inset-0 bg-black/30 md:hidden" aria-hidden="true"></div>
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 w-full">
         <div className="flex flex-col md:flex-row items-start gap-12">
-          
+
           {/* Text Content */}
           <div className="w-full md:w-1/2 lg:w-1/2">
             <div className="md:pr-12">
@@ -47,23 +47,23 @@ const ContactForm: React.FC = () => {
 
           {/* Form Container */}
           <div className="w-full md:w-1/2 lg:w-5/12">
-            <form 
+            <form
               onSubmit={handleSubmit}
-              className="bg-primary-blue p-8 md:p-10 text-white rounded-3xl shadow-2xl border border-white/5" 
+              className="bg-primary-blue p-8 md:p-10 text-white rounded-3xl shadow-2xl border border-white/5"
             >
               <h4 className="font-extrabold text-2xl mb-8 uppercase tracking-wide">Parlez-nous de votre projet</h4>
 
               {/* Nom de l'entreprise */}
               <div className="mb-6">
                 <label htmlFor="company" className="lgf-label">Nom de l'entreprise</label>
-                <input 
-                  id="company" 
-                  type="text" 
-                  placeholder="Ex : Ma Société" 
+                <input
+                  id="company"
+                  type="text"
+                  placeholder="Ex : Ma Société"
                   className="lgf-input w-full focus:ring-2 focus:ring-white/20 outline-none"
                   value={formData.company}
-                  onChange={(e) => setFormData({...formData, company: e.target.value})}
-                  required 
+                  onChange={(e) => setFormData({ ...formData, company: e.target.value })}
+                  required
                 />
               </div>
 
@@ -73,11 +73,11 @@ const ContactForm: React.FC = () => {
                 <div className="space-y-3">
                   {['Sweats', 'Pantalons', 'Vestes', 'T-shirts', 'Autre'].map((p) => (
                     <label key={p} className="lgf-option group">
-                      <input 
-                        type="checkbox" 
+                      <input
+                        type="checkbox"
                         checked={formData.products.includes(p)}
                         onChange={() => handleCheckboxChange(p)}
-                        className="lgf-checkbox" 
+                        className="lgf-checkbox"
                       />
                       <span className="font-semibold transition-colors">{p}</span>
                     </label>
@@ -88,41 +88,41 @@ const ContactForm: React.FC = () => {
               {/* Quantité */}
               <div className="mb-6">
                 <label htmlFor="quantity" className="lgf-label">Quantité souhaitée</label>
-                <input 
-                  id="quantity" 
-                  type="number" 
-                  min="1" 
+                <input
+                  id="quantity"
+                  type="number"
+                  min="1"
                   placeholder="Ex : 120"
                   className="lgf-input w-full focus:ring-2 focus:ring-white/20 outline-none"
                   value={formData.quantity}
-                  onChange={(e) => setFormData({...formData, quantity: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, quantity: e.target.value })}
                 />
               </div>
 
               {/* Description */}
               <div className="mb-6">
                 <label htmlFor="description" className="lgf-label">Expliquez votre projet</label>
-                <textarea 
-                  id="description" 
+                <textarea
+                  id="description"
                   rows={4}
                   placeholder="Dites-nous en plus sur vos besoins..."
                   className="lgf-textarea w-full focus:ring-2 focus:ring-white/20 outline-none resize-none"
                   value={formData.description}
-                  onChange={(e) => setFormData({...formData, description: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                 ></textarea>
               </div>
 
               {/* Email */}
               <div className="mb-8">
                 <label htmlFor="email" className="lgf-label">Votre Email professionnel</label>
-                <input 
-                  id="email" 
-                  type="email" 
-                  placeholder="votre@exemple.com" 
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="votre@exemple.com"
                   className="lgf-input w-full focus:ring-2 focus:ring-white/20 outline-none"
                   value={formData.email}
-                  onChange={(e) => setFormData({...formData, email: e.target.value})}
-                  required 
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  required
                 />
                 <p className="text-[10px] text-white/50 mt-3 italic uppercase tracking-widest">
                   Nous respectons votre confidentialité. Aucune donnée n'est revendue.
@@ -131,7 +131,7 @@ const ContactForm: React.FC = () => {
 
               {/* Submit */}
               <div className="text-right">
-                <button 
+                <button
                   type="submit"
                   className="w-full sm:w-auto inline-block bg-cta-red hover:bg-[#7a0d15] text-white px-10 py-4 font-extrabold rounded-full transition-all transform hover:-translate-y-1 active:scale-95 shadow-xl uppercase tracking-widest"
                 >

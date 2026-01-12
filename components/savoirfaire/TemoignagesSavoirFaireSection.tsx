@@ -2,21 +2,21 @@ import React from "react";
 
 const temoignages = [
   {
-    photo: "/media/temoignage-createur.jpg",
+    photo: "/public/media/temoignage-createur.jpg",
     citation: "La qualité et la réactivité font la différence",
     nom: "Julie Martin",
     fonction: "Créatrice de marque",
     projet: "Capsule éco-responsable"
   },
   {
-    photo: "/media/temoignage-achat.jpg",
+    photo: "/public/media/temoignage-achat.jpg",
     citation: "Une traçabilité rassurante pour nos clients",
     nom: "Marc Dupuis",
     fonction: "Directeur achat entreprise",
     projet: "Uniformes corporate"
   },
   {
-    photo: "/media/temoignage-boutique.jpg",
+    photo: "/public/media/temoignage-boutique.jpg",
     citation: "Des pièces qui se démarquent par leur finition",
     nom: "Sophie Lemoine",
     fonction: "Boutique concept",

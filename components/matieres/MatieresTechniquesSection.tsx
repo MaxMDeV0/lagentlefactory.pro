@@ -2,19 +2,19 @@ import React from "react";
 
 const matieres = [
   {
-    img: "/media/polyester-technique.jpg",
+    img: "/public/media/polyester-technique.jpg",
     titre: "Polyester haute performance",
     props: "Respirant, séchage rapide",
     usages: "Vêtements de travail, outdoor"
   },
   {
-    img: "/media/fibres-hybrides.jpg",
+    img: "/public/media/fibres-hybrides.jpg",
     titre: "Fibres hybrides",
     props: "Mélange coton/technique",
     usages: "Tenues professionnelles, textile événementiel"
   },
   {
-    img: "/media/toile-durable.jpg",
+    img: "/public/media/toile-durable.jpg",
     titre: "Toiles durables",
     props: "Résistance à l'usure",
     usages: "Pièces structurées, vêtements techniques"

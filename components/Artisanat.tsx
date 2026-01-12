@@ -3,9 +3,9 @@ import React from 'react';
 
 const Artisanat: React.FC = () => {
   return (
-    <section 
+    <section
       className="relative bg-cover bg-center text-white py-24 min-h-[500px] flex items-center"
-      style={{ backgroundImage: "url('media/artisanat-la-gentle-factory.png')" }}
+      style={{ backgroundImage: "url('public/media/artisanat-la-gentle-factory.png')" }}
     >
       {/* Background Fallback Overlay */}
       <div className="absolute inset-0 bg-primary-blue/40 md:bg-black/40 z-10" aria-hidden="true"></div>
@@ -40,7 +40,7 @@ const Artisanat: React.FC = () => {
             </ul>
 
             <div className="text-center">
-              <a 
+              <a
                 href="#"
                 className="inline-block bg-primary-blue hover:bg-[#1e2560] text-white px-8 py-4 rounded-full font-extrabold uppercase shadow-xl transition-all transform hover:-translate-y-1 text-lg"
               >

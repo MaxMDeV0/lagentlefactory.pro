@@ -33,25 +33,25 @@ const Card: React.FC<CardProps> = ({ image, title, description, link }) => (
 const OfferCards: React.FC = () => {
   const cards = [
     {
-      image: 'media/homme-mariniere-lgf.png',
+      image: 'public/media/homme-mariniere-lgf.png',
       title: 'Pour les marques<br />& créateurs',
       description: 'Lancer une collection, développer une nouvelle pièce, structurer un vestiaire : nous vous accompagnons avec expertise et fabrication française.',
       link: '/marques-createurs'
     },
     {
-      image: 'media/bonnets-famille-lgf.png',
+      image: 'public/media/bonnets-famille-lgf.png',
       title: 'Pour les<br />entreprises',
       description: 'Des vêtements premium, modernes et responsables pour habiller vos équipes, vos événements ou vos collaborateurs.',
       link: '/entreprises'
     },
     {
-      image: 'media/boutique-la-gentle-factory.png',
+      image: 'public/media/boutique-la-gentle-factory.png',
       title: 'Pour les boutiques<br />& concept-stores',
       description: 'Séries limitées, pièces exclusives ou modèle signature : créez une pièce parfaitement alignée avec votre univers.',
       link: '/boutiques'
     },
     {
-      image: 'media/association-ffe-marque-blanche-lgf.png',
+      image: 'public/media/association-ffe-marque-blanche-lgf.png',
       title: 'Pour les institutions<br />& clubs & Fédérations',
       description: 'Des vêtements durables, identitaires et responsables, adaptés à un usage régulier et fabriqués en France.',
       link: '/institutions'

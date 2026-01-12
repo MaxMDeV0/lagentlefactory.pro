@@ -34,26 +34,26 @@ const regions = [
 ];
 
 const atelierImages = [
-  { src: "/media/atelier-tricotage.jpg", legend: "Métiers à tricoter dans les Vosges" },
-  { src: "/media/atelier-teinture.jpg", legend: "Cuves de teinture à Chessy-les-Mines" },
-  { src: "/media/atelier-coupe.jpg", legend: "Atelier de coupe à Roubaix" },
-  { src: "/media/atelier-confection.jpg", legend: "Machines de confection à Roubaix" },
-  { src: "/media/atelier-controle.jpg", legend: "Contrôle qualité en atelier" },
-  { src: "/media/atelier-equipe.jpg", legend: "Équipes au travail dans nos ateliers" },
+  { src: "/public/media/atelier-tricotage.jpg", legend: "Métiers à tricoter dans les Vosges" },
+  { src: "/public/media/atelier-teinture.jpg", legend: "Cuves de teinture à Chessy-les-Mines" },
+  { src: "/public/media/atelier-coupe.jpg", legend: "Atelier de coupe à Roubaix" },
+  { src: "/public/media/atelier-confection.jpg", legend: "Machines de confection à Roubaix" },
+  { src: "/public/media/atelier-controle.jpg", legend: "Contrôle qualité en atelier" },
+  { src: "/public/media/atelier-equipe.jpg", legend: "Équipes au travail dans nos ateliers" },
 ];
 
 const certifications = [
-  { img: "/media/made-in-france.svg", name: "Made in France", desc: "Production locale, circuit court, savoir-faire français." },
-  { img: "/media/origine-france-garantie.svg", name: "Origine France Garantie", desc: "Traçabilité et transparence sur l'origine des produits." },
-  { img: "/media/gots.svg", name: "GOTS", desc: "Global Organic Textile Standard : coton bio certifié, respect environnemental et social." },
-  { img: "/media/oeko-tex.svg", name: "Oeko-Tex", desc: "Absence de substances nocives, sécurité et santé des consommateurs." },
-  { img: "/media/epv.svg", name: "Entreprise du Patrimoine Vivant", desc: "Label d'excellence pour les entreprises artisanales françaises." },
+  { img: "/public/media/made-in-france.svg", name: "Made in France", desc: "Production locale, circuit court, savoir-faire français." },
+  { img: "/public/media/origine-france-garantie.svg", name: "Origine France Garantie", desc: "Traçabilité et transparence sur l'origine des produits." },
+  { img: "/public/media/gots.svg", name: "GOTS", desc: "Global Organic Textile Standard : coton bio certifié, respect environnemental et social." },
+  { img: "/public/media/oeko-tex.svg", name: "Oeko-Tex", desc: "Absence de substances nocives, sécurité et santé des consommateurs." },
+  { img: "/public/media/epv.svg", name: "Entreprise du Patrimoine Vivant", desc: "Label d'excellence pour les entreprises artisanales françaises." },
 ];
 
 const artisans = [
-  { img: "/media/artisan-vosges.jpg", nom: "Jean-Luc", metier: "Tricoteur - Vosges", citation: "La maille, c'est une passion et une tradition familiale. Ici, chaque fil compte." },
-  { img: "/media/artisan-chessy.jpg", nom: "Sophie", metier: "Teinturière - Chessy-les-Mines", citation: "La couleur, c'est de la chimie, de l'art et beaucoup de rigueur. On ne laisse rien au hasard." },
-  { img: "/media/artisan-roubaix.jpg", nom: "Karim", metier: "Confectionneur - Roubaix", citation: "Voir la pièce prendre forme sous nos mains, c'est une vraie fierté. Le textile, c'est la vie de Roubaix !" },
+  { img: "/public/media/artisan-vosges.jpg", nom: "Jean-Luc", metier: "Tricoteur - Vosges", citation: "La maille, c'est une passion et une tradition familiale. Ici, chaque fil compte." },
+  { img: "/public/media/artisan-chessy.jpg", nom: "Sophie", metier: "Teinturière - Chessy-les-Mines", citation: "La couleur, c'est de la chimie, de l'art et beaucoup de rigueur. On ne laisse rien au hasard." },
+  { img: "/public/media/artisan-roubaix.jpg", nom: "Karim", metier: "Confectionneur - Roubaix", citation: "Voir la pièce prendre forme sous nos mains, c'est une vraie fierté. Le textile, c'est la vie de Roubaix !" },
 ];
 
 const valeurs = [
@@ -71,7 +71,7 @@ const NosAteliers: React.FC = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO */}
-      <section className="relative min-h-[60vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/media/atelier-hero.jpg')" }}>
+      <section className="relative min-h-[60vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/public/media/atelier-hero.jpg')" }}>
         <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
         <div className="relative z-10 text-center text-white px-4 py-24 flex flex-col items-center justify-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Nos ateliers textiles en France</h1>
@@ -86,7 +86,7 @@ const NosAteliers: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-12 text-center">Nos trois régions textiles d'excellence</h2>
           <div className="relative w-full h-96 mx-auto bg-gray-100 rounded-2xl shadow-lg overflow-hidden">
-            <img src="./media/carte-france.svg" alt="Carte de France" className="absolute inset-0 w-full h-full object-contain" />
+            <img src="./public/media/carte-france.svg" alt="Carte de France" className="absolute inset-0 w-full h-full object-contain" />
             {regions.map((r, i) => (
               <div
                 key={i}
@@ -112,7 +112,7 @@ const NosAteliers: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-center md:items-end">
             {icons.bobine}
-            <img src="./media/atelier-tricotage.jpg" alt="Atelier tricotage Vosges" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
+            <img src="./public/media/atelier-tricotage.jpg" alt="Atelier tricotage Vosges" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-2">Vosges - Tricotage & ennoblissement</h2>
@@ -147,7 +147,7 @@ const NosAteliers: React.FC = () => {
             <div className="text-sm text-white/80 mb-2">Process de teinture écologique, certification Oeko-Tex, économie d'eau : -30% par rapport à la moyenne européenne.</div>
           </div>
           <div className="order-1 md:order-2 flex flex-col items-center md:items-end">
-            <img src="./media/atelier-teinture.jpg" alt="Atelier teinture Chessy" className="rounded-2xl shadow-lg w-full max-w-md" />
+            <img src="./public/media/atelier-teinture.jpg" alt="Atelier teinture Chessy" className="rounded-2xl shadow-lg w-full max-w-md" />
           </div>
         </div>
       </section>
@@ -157,7 +157,7 @@ const NosAteliers: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-center md:items-start">
             {icons.machine}
-            <img src="./media/atelier-confection.jpg" alt="Atelier confection Roubaix" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
+            <img src="./public/media/atelier-confection.jpg" alt="Atelier confection Roubaix" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-2">Roubaix - Conception & confection</h2>

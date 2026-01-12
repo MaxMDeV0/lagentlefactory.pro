@@ -1,12 +1,12 @@
 import React from "react";
 
 const certifications = [
-  { img: "/media/gots.svg", name: "GOTS", desc: "Global Organic Textile Standard : coton bio certifié, respect environnemental et social." },
-  { img: "/media/grs.svg", name: "GRS", desc: "Global Recycled Standard : fibres recyclées certifiées, traçabilité et impact réduit." },
-  { img: "/media/oeko-tex.svg", name: "Oeko-Tex", desc: "Absence de substances nocives, sécurité et santé des consommateurs." },
-  { img: "/media/masters-of-linen.svg", name: "Masters of Linen", desc: "Label européen pour le lin cultivé et transformé localement." },
-  { img: "/media/origine-france-garantie.svg", name: "Origine France Garantie", desc: "Traçabilité et transparence sur l'origine des produits." },
-  { img: "/media/bci.svg", name: "BCI", desc: "Better Cotton Initiative : amélioration des pratiques agricoles et sociales." },
+  { img: "/public/media/gots.svg", name: "GOTS", desc: "Global Organic Textile Standard : coton bio certifié, respect environnemental et social." },
+  { img: "/public/media/grs.svg", name: "GRS", desc: "Global Recycled Standard : fibres recyclées certifiées, traçabilité et impact réduit." },
+  { img: "/public/media/oeko-tex.svg", name: "Oeko-Tex", desc: "Absence de substances nocives, sécurité et santé des consommateurs." },
+  { img: "/public/media/masters-of-linen.svg", name: "Masters of Linen", desc: "Label européen pour le lin cultivé et transformé localement." },
+  { img: "/public/media/origine-france-garantie.svg", name: "Origine France Garantie", desc: "Traçabilité et transparence sur l'origine des produits." },
+  { img: "/public/media/bci.svg", name: "BCI", desc: "Better Cotton Initiative : amélioration des pratiques agricoles et sociales." },
 ];
 
 const CertificationsSection: React.FC = () => (

@@ -1,12 +1,12 @@
 import React from "react";
 
 const badges = [
-  { logo: "/media/iso9001.svg", nom: "ISO 9001", desc: "Management qualité" },
-  { logo: "/media/origine-france-garantie.svg", nom: "Origine France Garantie", desc: "Traçabilité et origine certifiée" },
-  { logo: "/media/made-in-france.svg", nom: "Made in France", desc: "Production 100% française" },
-  { logo: "/media/oeko-tex-logo.svg", nom: "Oeko-Tex", desc: "Textile sans substances nocives" },
-  { logo: "/media/gots-logo.svg", nom: "GOTS", desc: "Organic processing" },
-  { logo: "/media/epv-logo.svg", nom: "EPV", desc: "Entreprise du Patrimoine Vivant" }
+  { logo: "/public/media/iso9001.svg", nom: "ISO 9001", desc: "Management qualité" },
+  { logo: "/public/media/origine-france-garantie.svg", nom: "Origine France Garantie", desc: "Traçabilité et origine certifiée" },
+  { logo: "/public/media/made-in-france.svg", nom: "Made in France", desc: "Production 100% française" },
+  { logo: "/public/media/oeko-tex-logo.svg", nom: "Oeko-Tex", desc: "Textile sans substances nocives" },
+  { logo: "/public/media/gots-logo.svg", nom: "GOTS", desc: "Organic processing" },
+  { logo: "/public/media/epv-logo.svg", nom: "EPV", desc: "Entreprise du Patrimoine Vivant" }
 ];
 
 const CertificationsQualiteSection: React.FC = () => (

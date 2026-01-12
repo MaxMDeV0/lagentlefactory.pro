@@ -11,7 +11,7 @@ const Entreprises: React.FC = () => {
 
       {/* Full-width illustrative image to make the page more visual */}
       <section className="w-full">
-        <img src="./media/homme-mariniere-lgf.png" alt="Marinière La Gentle Factory" className="w-full h-72 md:h-96 object-cover" />
+        <img src="./public/media/homme-mariniere-lgf.png" alt="Marinière La Gentle Factory" className="w-full h-72 md:h-96 object-cover" />
       </section>
 
       <div className="max-w-[1200px] mx-auto px-6 py-10">
@@ -46,11 +46,11 @@ const Entreprises: React.FC = () => {
         {/* Large visual gallery to illustrate ateliers, produits et séries */}
         <section className="mb-10 grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
           <div className="md:col-span-2 rounded-lg overflow-hidden shadow-lg">
-            <img src="./media/equipe-lgf-escalier.png" alt="Atelier et équipe" className="w-full h-80 object-cover" />
+            <img src="./public/media/equipe-lgf-escalier.png" alt="Atelier et équipe" className="w-full h-80 object-cover" />
           </div>
           <div className="flex flex-col gap-6">
-            <img src="./media/bonnets-famille-lgf.png" alt="Bonnet famille" className="w-full h-36 object-cover rounded-lg shadow" />
-            <img src="./media/boutique-la-gentle-factory.png" alt="Boutique La Gentle Factory" className="w-full h-36 object-cover rounded-lg shadow" />
+            <img src="./public/media/bonnets-famille-lgf.png" alt="Bonnet famille" className="w-full h-36 object-cover rounded-lg shadow" />
+            <img src="./public/media/boutique-la-gentle-factory.png" alt="Boutique La Gentle Factory" className="w-full h-36 object-cover rounded-lg shadow" />
           </div>
 
         </section>
@@ -71,7 +71,7 @@ const Entreprises: React.FC = () => {
           <h2 className="text-3xl font-bold mb-4">Exemples de réalisations</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <article className="p-4 border rounded-lg flex gap-4 items-start">
-              <img src="./media/gt-logo.svg" alt="GT logistics" style={{ width: 80, height: 80, objectFit: 'contain' }} />
+              <img src="./public/media/gt-logo.svg" alt="GT logistics" style={{ width: 80, height: 80, objectFit: 'contain' }} />
               <div>
                 <h3 className="font-semibold">Sweat premium corporate — GT logistics</h3>
                 <p className="mt-2 text-sm text-primary-blue/80">Objectif : moderniser l'image interne. Solution : semi-sur-mesure (coton bio, broderie ton sur ton, coupe droite). Livraison en 6 semaines. Résultat : 92% des collaborateurs le portent en dehors du travail.</p>
@@ -79,7 +79,7 @@ const Entreprises: React.FC = () => {
             </article>
 
             <article className="p-4 border rounded-lg flex gap-4 items-start">
-              <img src="./media/boutique-la-gentle-factory.png" alt="Boutique" style={{ width: 80, height: 80, objectFit: 'cover', borderRadius: 6 }} />
+              <img src="./public/media/boutique-la-gentle-factory.png" alt="Boutique" style={{ width: 80, height: 80, objectFit: 'cover', borderRadius: 6 }} />
               <div>
                 <h3 className="font-semibold">Série limitée pour boutique</h3>
                 <p className="mt-2 text-sm text-primary-blue/80">Objectif : créer une pièce exclusive. Solution : prêt-à-personnaliser + finitions spécifiques. Résultat : série vendue en 12 jours.</p>
