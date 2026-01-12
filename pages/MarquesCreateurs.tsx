@@ -55,8 +55,8 @@ const MarquesCreateurs: React.FC = () => {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="media/boutique-la-gentle-factory.png" alt="Atelier" className="w-full rounded-xl shadow-lg object-cover h-64" />
-            <img src="media/equipe-lgf-escalier.png" alt="Équipe" className="w-full rounded-xl shadow-lg object-cover h-64" />
+            <img src="./media/boutique-la-gentle-factory.png" alt="Atelier" className="w-full rounded-xl shadow-lg object-cover h-64" />
+            <img src="./media/equipe-lgf-escalier.png" alt="Équipe" className="w-full rounded-xl shadow-lg object-cover h-64" />
           </div>
         </section>
 

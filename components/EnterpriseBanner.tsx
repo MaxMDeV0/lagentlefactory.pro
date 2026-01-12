@@ -16,7 +16,7 @@ const EnterpriseBanner: React.FC = () => {
 
         <div className="lg:w-1/3 w-full flex justify-center">
           <div className="w-full max-w-sm rounded-lg overflow-hidden shadow-lg bg-white">
-            <img src="/media/banner.png" alt="Illustration textile entreprise" className="w-full h-64 object-cover" />
+            <img src="./media/banner.png" alt="Illustration textile entreprise" className="w-full h-64 object-cover" />
           </div>
         </div>
       </div>

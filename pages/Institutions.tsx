@@ -60,7 +60,7 @@ const Institutions: React.FC = () => {
           </div>
 
           <div className="rounded-xl overflow-hidden border">
-            <img src="media/homme-mariniere-lgf.png" alt="Exemple tenue institution" className="w-full object-cover h-64" />
+            <img src="./media/homme-mariniere-lgf.png" alt="Exemple tenue institution" className="w-full object-cover h-64" />
             <div className="p-6">
               <h4 className="font-bold mb-2">Exemple : tenue de club</h4>
               <p className="text-primary-blue/80">Un kit complet comprenant training, t-shirt d'équipe et sweat, fabriqué pour résister et être réédité chaque saison.</p>
@@ -105,15 +105,15 @@ const Institutions: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="border rounded-lg overflow-hidden">
-              <img src="media/bonnets-famille-lgf.png" alt="Hoodie club" className="w-full h-40 object-cover" />
+              <img src="./media/bonnets-famille-lgf.png" alt="Hoodie club" className="w-full h-40 object-cover" />
               <div className="p-4 text-primary-blue/80">Capsule performante pour club local — série limitée.</div>
             </div>
             <div className="border rounded-lg overflow-hidden">
-              <img src="media/boutique-la-gentle-factory.png" alt="Collection boutique" className="w-full h-40 object-cover" />
+              <img src="./media/boutique-la-gentle-factory.png" alt="Collection boutique" className="w-full h-40 object-cover" />
               <div className="p-4 text-primary-blue/80">Collection exclusive pour concept-store partenaire.</div>
             </div>
             <div className="border rounded-lg overflow-hidden">
-              <img src="media/ffe-logo.svg" alt="Projet fédération" className="w-full h-40 object-contain bg-white p-6" />
+              <img src="./media/ffe-logo.svg" alt="Projet fédération" className="w-full h-40 object-contain bg-white p-6" />
               <div className="p-4 text-primary-blue/80">Étude de cas : uniformes techniques pour une fédération.</div>
             </div>
           </div>

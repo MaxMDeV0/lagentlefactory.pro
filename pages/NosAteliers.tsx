@@ -86,7 +86,7 @@ const NosAteliers: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-12 text-center">Nos trois régions textiles d'excellence</h2>
           <div className="relative w-full h-96 mx-auto bg-gray-100 rounded-2xl shadow-lg overflow-hidden">
-            <img src="/media/carte-france.svg" alt="Carte de France" className="absolute inset-0 w-full h-full object-contain" />
+            <img src="./media/carte-france.svg" alt="Carte de France" className="absolute inset-0 w-full h-full object-contain" />
             {regions.map((r, i) => (
               <div
                 key={i}
@@ -112,7 +112,7 @@ const NosAteliers: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-center md:items-end">
             {icons.bobine}
-            <img src="/media/atelier-tricotage.jpg" alt="Atelier tricotage Vosges" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
+            <img src="./media/atelier-tricotage.jpg" alt="Atelier tricotage Vosges" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-2">Vosges - Tricotage & ennoblissement</h2>
@@ -147,7 +147,7 @@ const NosAteliers: React.FC = () => {
             <div className="text-sm text-white/80 mb-2">Process de teinture écologique, certification Oeko-Tex, économie d'eau : -30% par rapport à la moyenne européenne.</div>
           </div>
           <div className="order-1 md:order-2 flex flex-col items-center md:items-end">
-            <img src="/media/atelier-teinture.jpg" alt="Atelier teinture Chessy" className="rounded-2xl shadow-lg w-full max-w-md" />
+            <img src="./media/atelier-teinture.jpg" alt="Atelier teinture Chessy" className="rounded-2xl shadow-lg w-full max-w-md" />
           </div>
         </div>
       </section>
@@ -157,7 +157,7 @@ const NosAteliers: React.FC = () => {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col items-center md:items-start">
             {icons.machine}
-            <img src="/media/atelier-confection.jpg" alt="Atelier confection Roubaix" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
+            <img src="./media/atelier-confection.jpg" alt="Atelier confection Roubaix" className="rounded-2xl shadow-lg w-full max-w-md mt-4" />
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-2">Roubaix - Conception & confection</h2>

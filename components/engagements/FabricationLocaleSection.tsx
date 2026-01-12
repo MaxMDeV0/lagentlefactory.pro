@@ -29,7 +29,7 @@ const FabricationLocaleSection: React.FC = () => (
       <h3 className="text-xl font-bold text-cta-red mb-2">Travailler en France, c'est soutenir l'industrie textile et garantir une qualité cohérente</h3>
       <div className="grid md:grid-cols-2 gap-12 items-center mb-8">
         <div className="relative h-64 w-full bg-gray-100 rounded-2xl shadow-lg">
-          <img src="/media/carte-france.png" alt="Carte de France" className="absolute inset-0 w-full h-full object-contain" />
+          <img src="./media/carte-france.png" alt="Carte de France" className="absolute inset-0 w-full h-full object-contain" />
           {points.map((p, i) => (
             <div key={i} className="absolute" style={{ left: p.x, top: p.y }}>
               <div className="bg-cta-red text-white rounded-full px-3 py-1 text-xs font-bold shadow-lg">{p.ville}</div>

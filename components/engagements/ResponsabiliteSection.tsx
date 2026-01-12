@@ -19,7 +19,7 @@ const ResponsabiliteSection: React.FC = () => (
   <section className="bg-gray-50 py-16 md:py-24">
     <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 px-4 items-center">
       <div>
-        <img src="/media/matieres-responsables.jpg" alt="Textile responsable" className="rounded-2xl shadow-lg w-full object-cover" />
+        <img src="./media/matieres-responsables.jpg" alt="Textile responsable" className="rounded-2xl shadow-lg w-full object-cover" />
       </div>
       <div>
         <div className="flex items-center mb-4">

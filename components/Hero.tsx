@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <section className="relative h-screen min-h-[600px] overflow-hidden flex items-end justify-start">
       {/* Background Image - Assumes 'media' folder contains banner.png */}
       <img
-        src="media/banner.png"
+        src="./media/banner.png"
         alt="Bannière La Gentil Factory"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />

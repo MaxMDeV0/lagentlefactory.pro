@@ -14,7 +14,7 @@ const AccentSectionA: React.FC = () => {
         </div>
 
         <div className="md:w-1/3 text-center">
-          <img src="media/made-in-france.svg" alt="Made in France" className="mx-auto h-20 w-20" />
+          <img src="./media/made-in-france.svg" alt="Made in France" className="mx-auto h-20 w-20" />
         </div>
       </div>
     </section>

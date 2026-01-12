@@ -17,7 +17,7 @@ const FibresRecycleesSection: React.FC = () => (
         <Link to="/realisations?matiere=recycle" className="inline-block bg-white text-primary-blue font-bold px-6 py-3 rounded-full shadow hover:bg-cta-red hover:text-white transition-all">Voir des exemples de réalisations recyclées</Link>
       </div>
       <div className="order-1 md:order-2 flex flex-col items-center md:items-end">
-        <img src="/media/fibres-recyclees.jpg" alt="Fibres recyclées" className="rounded-2xl shadow-lg w-full max-w-md" />
+        <img src="./media/fibres-recyclees.jpg" alt="Fibres recyclées" className="rounded-2xl shadow-lg w-full max-w-md" />
       </div>
     </div>
   </section>
