@@ -1,0 +1,9 @@
+
+{
+  "name": "La Gentil Factory",
+  "description": "Une application web pour La Gentil Factory, fabricant de vêtements éthiques et made in France. Permet de découvrir les solutions de personnalisation et de demander un devis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

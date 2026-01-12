@@ -1,0 +1,3 @@
+/* Minimal index.css to satisfy build. Additional global styles can be added here. */
+html,body,#root{height:100%;}
+/* keep empty otherwise - Tailwind is loaded via CDN in index.html */

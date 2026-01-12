@@ -1,0 +1,860 @@
+﻿DOCUMENT TECHNIQUE - SITE WEB MARQUE BLANCHE
+
+1. OBJECTIF DU SITE
+Créer un site dédié à l'activité textile marque blanche / création de vêtements pour marques, entreprises, boutiques et institutions, avec une expérience claire, professionnelle et orientée conversion.
+Le site doit être :
+* rapide
+* lisible
+* SEO-friendly
+* optimisé pour la prise de contact
+* facilement administrable
+* structuré autour de l'expertise Gentle Factory + ton B2B premium
+
+2. PLAN DU SITE (SITEMAP)
+Accueil
+
+Notre offre
+│
+├─ Faire fabriquer vos vêtements en France
+│     ├─ Pour les marques & créateurs
+│     ├─ Pour les entreprises
+│     ├─ Pour les boutiques & concept-stores
+│     └─ Pour les institutions & clubs
+│
+├─ Nos solutions
+│     ├─ Prêt-à-personnaliser
+│     ├─ Semi-sur-mesure
+│     └─ Co-création complète
+│
+├─ Fabrication & savoir-faire
+│     ├─ Nos ateliers en France
+│     ├─ Nos matières (bio, recyclé, technique)
+│     └─ Nos engagements responsables
+│
+├─ Réalisations
+│     └─ Études de cas (avant/après + photos)
+│
+Blog & Conseils
+│     ├─ Comment faire fabriquer en France ?
+│     ├─ Lancer sa marque : les erreurs à éviter
+│     ├─ Textile entreprise : comment choisir ?
+│     └─ Guides pratiques
+│
+Contact & devis
+3. TITLES + META DESCRIPTIONS (à intégrer dans <head>)
+HOME
+Title : Créer vos vêtements en France | Textile responsable & premium
+Meta : Créez vos vêtements en France : pièces premium, matières responsables, fabrication locale et accompagnement expert pour marques et entreprises.
+(La liste complète est déjà fournie plus haut - à réintégrer directement.)
+
+4. STRUCTURE DES PAGES (H1 / H2 / H3)
+🔹 HOME PAGE
+H1 : Créer vos vêtements en France
+H2 : Une expertise textile responsable au service de votre projet
+H2 : Pour qui créons-nous ?
+H2 : Nos trois solutions
+H2 : Notre fabrication française
+H2 : Réalisations
+H2 : Commencer votre projet
+
+🔹 NOTRE OFFRE
+H1 : Notre offre textile
+H2 : Pour qui travaillons-nous ?
+H3 : Marques & créateurs
+H3 : Entreprises
+H3 : Boutiques
+H3 : Institutions
+H2 : Nos trois solutions
+H2 : Notre fabrication
+H2 : Ce qui nous différencie
+
+🔹 MARQUES & CRÉATEURS
+H1 : Créer votre collection de vêtements
+H2 : Ce que nous faisons pour les créateurs
+H2 : Trois façons de créer votre pièce
+H3 : Prêt-à-personnaliser
+H3 : Semi-sur-mesure
+H3 : Co-création complète
+H2 : Fabrication française
+H2 : Pourquoi nous choisir ?
+
+🔹 ENTREPRISES
+H1 : Textile entreprise premium
+H2 : Ce que nous créons pour les entreprises
+H2 : Nos solutions
+H2 : Fabrication française
+H2 : Pourquoi les entreprises nous choisissent ?
+
+🔹 BOUTIQUES
+H1 : Pièces exclusives pour boutiques
+H2 : Ce que nous faisons pour les concept-stores
+H2 : Nos solutions
+H2 : Fabrication française
+H2 : Pourquoi collaborer avec nous ?
+
+🔹 INSTITUTIONS
+H1 : Textile durable pour institutions & clubs
+H2 : Ce que nous créons
+H2 : Nos solutions
+H2 : Fabrication française
+H2 : Pourquoi nous choisir ?
+
+🔹 SOLUTIONS (pages dédiées)
+PRÊT-À-PERSONNALISER
+H1 : Solution prêt-à-personnaliser
+H2 : Pour qui ?
+H2 : Personnalisations possibles
+H2 : Avantages
+H2 : Pourquoi choisir cette solution ?
+SEMI-SUR-MESURE
+H1 : Solution semi-sur-mesure
+H2 : Pour qui ?
+H2 : Ce que vous adaptez
+H2 : Avantages
+H2 : Pourquoi choisir cette solution ?
+CO-CRÉATION
+H1 : Solution de co-création complète
+H2 : Pour qui ?
+H2 : Notre méthode
+H2 : Avantages
+H2 : Pourquoi choisir cette solution ?
+
+🔹 FABRICATION & SAVOIR-FAIRE
+H1 : Notre fabrication textile
+H2 : Une production 100 % française
+H2 : Maîtrise et qualité
+H2 : Pourquoi produire en France ?
+
+🔹 ATELIERS
+H1 : Nos ateliers textiles en France
+H2 : Vosges : tricotage
+H2 : Chessy-les-Mines : teinture
+H2 : Roubaix : confection
+
+🔹 MATIÈRES
+H1 : Nos matières responsables
+H2 : Coton bio
+H2 : Fibres recyclées
+H2 : Matières techniques
+H2 : Lin
+
+🔹 ENGAGEMENTS
+H1 : Nos engagements responsables
+H2 : Responsabilité
+H2 : Durabilité
+H2 : Fabrication locale
+H2 : Transparence
+
+🔹 RÉALISATIONS
+H1 : Nos réalisations
+H2 : Exemples de projets textiles
+H2 : Pourquoi travailler avec nous ?
+
+🔹 CONTACT
+H1 : Contact & demande de devis
+H2 : Votre projet textile
+H2 : Nous contacter
+
+🔹 BLOG INDEX
+H1 : Blog & ressources textile
+H2 : Guides
+H2 : Conseils
+H2 : Actualités
+
+5. MAILLAGE INTERNE (à intégrer dans les contenus)
+Obligatoires sur toutes les pages :
+* CTA Demander un devis → /contact-devis
+* Lien vers solutions si pertinent
+* Lien vers fabrication ou réalisations selon contexte
+Règles :
+Segments → Solutions
+* Marques → semi-sur-mesure + co-création
+* Entreprises → prêt-à-personnaliser
+* Boutiques → sérise limitée → co-création
+* Institutions → prêt-à-personnaliser
+Solutions → Segments
+Exemples dans texte :
+" Cette solution convient particulièrement aux entreprises " → /entreprises
+Solutions → Fabrication
+Toujours un lien vers :
+* /fabrication-savoir-faire
+* /matieres-responsables
+Blog → Tout le site
+Chaque article doit pointer vers :
+* solutions
+* segments
+* fabrication
+* réalisations
+* contact
+
+6. EXIGENCES TECHNIQUES (SEO + PERFORMANCE)
+6.1. SEO technique
+* Balises <title> uniques
+* Balises <meta name="description"> optimisées
+* Un seul <h1> par page
+* Structure H2 > H3 cohérente
+* Images en WebP compressées
+* Texte ALT descriptif obligatoire
+* URLs propres, courtes et sans majuscules
+* Temps de chargement < 2 secondes
+* Sitemap XML + robots.txt
+6.2. Performance
+* Lazy loading images
+* Mise en cache
+* Minification CSS/JS
+* Hébergement optimisé
+* Compatibilité mobile irréprochable
+6.3. Accessibilité
+* Contraste respecté
+* Navigation clavier
+* Attributs aria
+6.4. CMS
+Le site peut être réalisé :
+* WordPress (pages statiques + blog)
+* Webflow
+* Symfony/Twig (sur mesure)
+* Autre ?
+
+7. EXIGENCES UX / DESIGN
+7.1. Header
+* Logo
+* Menu clair (max 6 éléments)
+* CTA "Demander un devis"
+7.2. Footer
+* Plan du site complet
+* Mentions légales
+* Contact
+* Lien vers réseaux
+* Copyright
+7.3. Templates
+* Template PAGE
+* Template ARTICLE
+* Template RÉALISATIONS
+* Template CATÉGORIE BLOG
+* Template CONTACT
+
+
+
+ANNEXES
+
+
+Faites fabriquer vos vêtements en France. Simplement. À votre image.
+Sous-titre :
+Du t-shirt à la chemise technique, nous créons et fabriquons vos vêtements - pour votre marque, votre entreprise, votre boutique ou votre club - avec un savoir-faire français et des matières responsables.
+CTA principal :
+👉 Demander un devis
+CTA secondaire :
+👉 Découvrir nos solutions
+
+SECTION 1 - À QUI S'ADRESSE NOTRE OFFRE
+Une solution pensée pour tous ceux qui veulent du textile de qualité.
+Pour les marques & créateurs
+Lancez une collection cohérente, durable et fabriquée en France. Du patronage à la production.
+Pour les entreprises
+Des vêtements premium, responsables et personnalisés pour vos collaborateurs ou vos événements.
+Pour les boutiques & concept-stores
+Créez un produit exclusif, une série limitée ou une pièce signature pour votre clientèle.
+Pour les institutions & clubs
+Des vêtements durables, loin des goodies, pensés pour représenter vos valeurs.
+
+SECTION 2 - NOS SOLUTIONS
+Trois façons de donner vie à votre projet.
+Prêt-à-personnaliser
+Nos modèles existants + votre identité. La solution la plus rapide.
+Semi-sur-mesure
+Matières, couleurs, finitions : vous adaptez un modèle selon vos besoins.
+Co-création complète
+Vous avez une idée ou un croquis ? Nous créons votre vêtement de A à Z.
+👉 Découvrir nos solutions
+
+SECTION 3 - SAVOIR-FAIRE & FABRICATION
+Faire fabriquer en France, ça change tout.
+* Ateliers situés en France (Vosges, Chessy-les-Mines, Roubaix)
+* Coton bio, matières recyclées ou tissus techniques
+* Traçabilité totale, petites et moyennes séries
+* Un accompagnement humain et réactif
+👉 En savoir plus sur la fabrication
+
+SECTION 4 - EXEMPLES & RÉALISATIONS
+Ils nous ont confié leurs vêtements. Voici ce que nous avons créé ensemble.
+📸 Carrousel :
+* Hoodie corporate pour une entreprise
+* T-shirts capsule exclusive pour une boutique
+* Sweat premium pour un club
+* Modèles co-créés avec de jeunes marques
+👉 Voir toutes nos réalisations
+
+SECTION 5 - COMMENT ÇA MARCHE ?
+Votre projet, en 4 étapes simples.
+1. Vous nous parlez de votre idée
+2. On vous propose la meilleure solution
+3. On prototype et on ajuste
+4. On fabrique en France, et on livre
+👉 Démarrer mon projet
+
+SECTION 6 - CTA FINAL
+Besoin d'un devis ou d'un premier échange ?
+On répond en 24 à 48h et on vous oriente vers la solution la plus adaptée.
+👉 Demander un devis
+👉 Nous contacter
+
+
+NOTRE OFFRE
+Créer vos vêtements en France, avec exigence, cohérence et sens.
+Vous avez un projet textile qui mérite de la précision, de la transparence et un vrai engagement.
+Nous avons l'expertise, les ateliers, les matières responsables et la maîtrise nécessaire pour transformer votre idée en un vêtement abouti - fabriqué en France, dans les règles de l'art.
+Ici, chaque pièce est pensée pour durer, chaque détail compte, et chaque choix est assumé.
+Parce que créer un vêtement n'est pas un geste anodin : c'est une intention.
+
+🧭 Pour qui travaillons-nous ?
+Pour celles et ceux qui veulent créer du textile responsable, durable et aligné avec leurs valeurs.
+Marques & créateurs
+Vous souhaitez lancer une collection ou développer une nouvelle pièce ?
+Nous vous accompagnons pas à pas : conception, matières, prototypes, production.
+Un cadre clair, un savoir-faire solide, une fabrication maîtrisée.
+👉 Découvrir l'offre créateurs
+
+Entreprises
+Vous voulez habiller vos équipes ou offrir un textile premium, cohérent avec votre image ?
+Nous créons des vêtements qualitatifs, modernes et responsables, pensés pour être portés au quotidien.
+👉 Découvrir l'offre entreprises
+
+Boutiques & concept-stores
+Pour une pièce exclusive, une série limitée ou un produit signature : nous développons un vêtement pensé pour votre clientèle et votre identité, avec une fabrication française irréprochable.
+👉 Découvrir l'offre boutiques
+
+Institutions & clubs
+Nous créons des vêtements qui valorisent votre identité et vos couleurs : durables, responsables et adaptés à un usage régulier, loin des textiles ordinaires.
+👉 Découvrir l'offre institutions
+
+🧵 Comment créons-nous votre vêtement ?
+Une approche structurée, maîtrisée et adaptée à votre projet.
+1. Prêt-à-personnaliser
+Nos modèles existants, personnalisés à votre identité visuelle.
+Une solution rapide, simple et fiable.
+👉 En savoir plus
+
+2. Semi-sur-mesure
+Nous adaptons l'un de nos modèles selon vos besoins : matière, couleur, détails, finitions.
+Une grande liberté, toujours dans un cadre maîtrisé.
+👉 Voir les possibilités
+
+3. Co-création complète
+Une création textile construite entièrement pour vous : style, patronage, sourcing, prototypage, ajustements et fabrication.
+Votre vision, accompagnée et concrétisée avec rigueur.
+👉 Co-créer votre pièce
+
+🇫🇷 Notre fabrication
+Une production française, exigeante et transparente.
+Nos ateliers sont situés en France : Vosges, Chessy-les-Mines, Roubaix.
+Nous travaillons au plus près, pour garantir :
+* des matières responsables (bio, recyclées, techniques)
+* une production en petites et moyennes séries
+* une maîtrise complète de chaque étape
+* une traçabilité claire et assumée
+* une qualité constante
+Fabrication locale, valeurs locales.
+👉 Découvrir notre savoir-faire
+
+✊ Ce qui nous différencie
+Une expertise textile solide, portée par des convictions fortes.
+✔ Une fabrication française réellement maîtrisée
+✔ Un accompagnement clair, méthodique et humain
+✔ Des matières responsables choisies avec exigence
+✔ Un savoir-faire technique issu de plus de dix ans de développement textile
+✔ Des vêtements conçus pour durer, pas pour suivre une tendance éphémère
+
+📬 Vous avez un projet ?
+Parlez-nous de votre idée. Nous vous répondons en 24 à 48h avec les premières orientations et les solutions adaptées.
+👉 Demander un devis
+👉 Nous contacter
+
+
+PAGE 1 MARQUES & CRÉATEURS
+Donner forme à votre vision. Avec un partenaire qui maîtrise la création textile de A à Z.
+Créer un vêtement, ce n'est pas simplement produire un modèle : c'est faire exister une idée, traduire un univers, affirmer une identité.
+Si vous lancez votre marque, ou développez une nouvelle collection, vous avez besoin d'un accompagnement clair, fiable, et d'une fabrication à la hauteur de vos ambitions.
+C'est exactement ce que nous proposons : une expertise textile solide, un savoir-faire français, et un cadre méthodique qui vous permet d'avancer avec confiance.
+
+🎨 Ce que nous faisons pour les marques & créateurs
+Transformer une idée en un vêtement abouti, responsable et durable.
+Que vous arriviez avec un croquis, une idée précise ou une simple intention, nous structurons votre projet et le transformons en une pièce cohérente, technique et maîtrisée.
+* Clarification du projet : style, volumes, usages, contraintes.
+* Sélection des matières : coton bio, recyclé, ou tissus techniques selon votre besoin.
+* Développement du patronage : proportions, coupe, tombé.
+* Prototypage & ajustements : on teste, on ajuste, on peaufine.
+* Fabrication en France : petites ou moyennes séries, selon votre rythme.
+* Accompagnement complet : du premier échange à la livraison.
+Chaque étape est pensée pour vous permettre d'avancer sereinement, même si vous n'avez jamais créé de vêtement auparavant.
+
+🧵 Trois façons de créer votre pièce
+(Directement alignées sur votre niveau d'autonomie et de personnalisation.)
+1. Prêt-à-personnaliser
+Vous partez d'un modèle existant, auquel nous intégrons votre identité.
+Une solution rapide, lisible et rassurante pour tester ou démarrer.
+2. Semi-sur-mesure
+Un modèle Gentle adapté à votre univers : matière, couleur, détails, finitions.
+L'alliance parfaite entre créativité et maîtrise technique.
+3. Co-création complète
+Votre pièce, conçue intégralement selon votre vision.
+Du style à la fabrication, chaque choix est construit avec vous.
+👉 En savoir plus sur nos solutions
+
+🇫🇷 Une fabrication française maîtrisée
+Créer local, c'est s'assurer de la qualité, de la transparence et de la réactivité.
+Nos ateliers situés en France (Vosges, Chessy-les-Mines, Roubaix) travaillent sur vos pièces avec la même exigence que pour nos propres collections.
+Vous bénéficiez de :
+* délais fiables
+* échanges directs
+* une traçabilité complète
+* une qualité constante, contrôlée étape par étape
+Votre vêtement prend vie ici, près de chez vous, dans un circuit maîtrisé.
+
+✨ Pourquoi les marques & créateurs choisissent notre accompagnement ?
+✔ Une équipe experte en développement textile
+✔ Une méthodologie claire, rassurante et structurée
+✔ Une fabrication française qui fait la différence
+✔ Des matières responsables, sélectionnées avec intention
+✔ Un discours transparent, un accompagnement humain
+✔ Des pièces durables, pensées pour traverser les collections
+
+📬 Prêt à créer votre pièce ?
+Parlez-nous de votre marque, de votre vision, de vos envies.
+Nous vous orientons vers la solution la plus adaptée et vous envoyons une première proposition sous 24 à 48h.
+👉 Demander un devis
+👉 Nous contacter
+
+
+PAGE 2 - ENTREPRISES
+Habiller vos équipes, valoriser votre image, avec un textile responsable et fabriqué en France.
+Un vêtement d'entreprise n'est jamais anodin : il représente votre culture, votre ambition, votre manière de travailler.
+Il doit être élégant, confortable, durable - et refléter ce que votre organisation défend.
+Nous créons pour vous des vêtements professionnels premium, modernes et responsables, pensés pour être portés au quotidien, bien au-delà du geste corporate.
+
+🎯 Ce que nous faisons pour les entreprises
+Créer un textile dont vous serez fier, et que vos collaborateurs auront réellement envie de porter.
+* Vêtements corporate premium (sweats, tee-shirts, chemises, vestes)
+* Textile événementiel haut de gamme
+* Gifts collaborateurs durables
+* Tenues cohérentes pour équipes en contact client
+Nous travaillons avec précision : choix des matières, couleurs, style, finitions... chaque détail contribue à votre image.
+
+🧵 Trois options selon vos besoins
+1. Prêt-à-personnaliser
+Nos modèles existants + votre identité.
+Une solution simple, rapide et qualitative.
+2. Semi-sur-mesure
+Ajustez le modèle : matières, couleurs, finitions.
+L'assurance d'une pièce élégante, cohérente et distinctive.
+3. Co-création complète
+Un vêtement pensé pour votre entreprise, de A à Z.
+Votre image, nos ateliers, une pièce qui marque les esprits.
+👉 Découvrir les solutions
+
+🇫🇷 Fabrication française & cohérence responsable
+Vos pièces sont entièrement produites en France : Vosges, Chessy-les-Mines, Roubaix.
+Vous bénéficiez de :
+* délais maîtrisés
+* qualité durable
+* matières responsables (bio, recyclées, techniques)
+* traçabilité claire
+* une relation directe et transparente
+Nous créons du textile corporate qui a du sens.
+Pas du textile jetable.
+
+✨ Pourquoi les entreprises choisissent notre savoir-faire ?
+✔ Une image soignée, moderne et durable
+✔ Des pièces confortables, vraiment portées au quotidien
+✔ Une fabrication française qui valorise votre engagement
+✔ Un accompagnement sérieux et accessible
+✔ Une sélection de matières responsables
+✔ Des vêtements pensés pour durer dans le temps
+
+📬 Vous avez un besoin textile pour vos équipes ?
+Nous vous orientons vers la solution la plus adaptée et vous apportons des réponses concrètes en 24 à 48h.
+👉 Demander un devis
+👉 Nous contacter
+
+
+PAGE 3 - BOUTIQUES & CONCEPT-STORES
+Créer une pièce exclusive pour votre boutique, avec une fabrication française irréprochable.
+Une boutique, c'est une ligne éditoriale. Une atmosphère. Une sélection qui dit quelque chose de vous.
+Alors quand vous décidez de créer votre propre pièce - un sweat signature, une série limitée, un modèle exclusif - elle doit être parfaitement alignée avec votre univers.
+Nous concevons pour vous un vêtement qui incarne votre identité, fabriqué en France avec sérieux et précision.
+
+🎯 Ce que nous créons pour les boutiques
+* Pièces exclusives
+* Drops en série limitée
+* Modèles signature pour concept-stores
+* Produits différenciants pour étoffer votre sélection
+Nous adaptons chaque création à votre clientèle, votre positionnement et votre style.
+
+🧵 Trois solutions pour développer votre pièce
+1. Prêt-à-personnaliser
+Nos modèles + votre identité.
+Une solution simple pour proposer rapidement une pièce cohérente avec votre boutique.
+2. Semi-sur-mesure
+Personnalisation des matières, couleurs, finitions.
+La liberté créative, dans un cadre maîtrisé.
+3. Co-création complète
+Une pièce unique, façonnée pour votre boutique.
+Le moyen le plus juste d'affirmer votre singularité.
+👉 Découvrir les solutions
+
+🇫🇷 Fabriqué en France, pour conserver votre exigence
+Vos pièces sont confectionnées dans nos ateliers français : Vosges, Normandie, Hauts-de-France.
+Vous profitez de :
+* séries limitées parfaitement gérées
+* matières responsables sélectionnées avec exigence
+* qualité constante
+* une fabrication locale qui fait sens pour votre clientèle
+* une relation directe et professionnelle
+Une pièce exclusive est belle quand elle est bien faite.
+Ici, elle l'est.
+
+✨ Pourquoi les concept-stores collaborent avec nous ?
+✔ Un vêtement fabriqué localement, qui rassure et séduit votre clientèle
+✔ Des séries limitées réellement exclusives
+✔ Un rendu haut de gamme, cohérent avec votre sélection
+✔ Un accompagnement sérieux, structuré, et à l'écoute
+✔ Une approche responsable, autant dans la matière que dans la fabrication
+
+📬 Envie de créer votre pièce exclusive ?
+Parlons de votre univers, de votre clientèle, de vos idées.
+Nous revenons vers vous rapidement avec les options les plus pertinentes.
+👉 Demander un devis
+👉 Nous contacter
+
+
+
+ PAGE 4 - INSTITUTIONS & CLUBS
+Des vêtements durables et responsables, pensés pour valoriser votre identité.
+Un club, une école, une association ou une institution cherche bien plus qu'un textile "personnalisé".
+Il lui faut un vêtement qui rassemble, qui fédère, qui tient dans le temps - et qui porte haut ses valeurs.
+Nous concevons des pièces durables, responsables et fabriquées en France, adaptées à un usage régulier et à l'image de votre organisation.
+
+🎯 Ce que nous créons pour vous
+* Tenues pour équipes et adhérents
+* Sweats, tee-shirts et polos premium
+* Tenues représentatives pour événements
+* Pièces durables pour membres ou supporters
+Nous allions confort, robustesse, esthétique et responsabilité.
+
+🧵 Trois manières de créer vos vêtements
+1. Prêt-à-personnaliser
+Nos modèles existants, personnalisés à votre identité visuelle.
+Fiable, simple et parfaitement adapté à un usage régulier.
+2. Semi-sur-mesure
+Matières, couleurs, détails : vous adaptez la pièce à vos codes.
+3. Co-création complète
+Pour une tenue qui représente pleinement votre institution, jusque dans les détails.
+👉 Découvrir les solutions
+
+🇫🇷 Des pièces fabriquées en France pour durer
+Votre vêtement est produit dans nos ateliers français :
+Vosges - Chessy-les-Mines - Roubaix.
+Vous bénéficiez de :
+* solidité et tenue dans le temps
+* matières responsables
+* production maîtrisée
+* qualité constante
+* traçabilité complète
+* sérénité sur les délais
+Un vêtement institutionnel doit inspirer confiance.
+Le nôtre est fait pour ça.
+
+✨ Pourquoi les institutions nous choisissent
+✔ Une qualité durable, pensée pour un usage intensif
+✔ Une fabrication française responsable et maîtrisée
+✔ Une image valorisante et cohérente
+✔ Un accompagnement professionnel, clair et structuré
+✔ Des pièces confortables, esthétiques et impeccablement finies
+
+📬 Un projet textile pour votre institution ou votre club ?
+Nous vous aidons à définir la bonne solution et vous envoyons une proposition dans les 24 à 48h.
+👉 Demander un devis
+👉 Nous contacter
+
+
+
+SOLUTION 1 - PRÊT-À-PERSONNALISER
+Une collection déjà maîtrisée. Votre identité en plus.
+Le prêt-à-personnaliser est la solution idéale si vous souhaitez aller vite, tout en conservant ce qui fait la force d'un vêtement bien conçu : une coupe aboutie, une fabrication française irréprochable et des matières responsables.
+Vous choisissez l'un de nos modèles.
+Nous y intégrons votre identité visuelle.
+Le résultat : une pièce élégante, durable, parfaitement alignée avec votre image.
+
+🎯 Pour qui ?
+* Entreprises qui veulent des vêtements corporate premium
+* Boutiques qui souhaitent une pièce exclusive rapidement
+* Institutions et clubs qui recherchent une solution fiable
+* Marques en lancement ou en phase de test
+
+🧵 Ce que vous personnalisez
+* Broderie
+* Sérigraphie
+* Étiquette de marque (intérieure ou extérieure)
+* Coloris selon disponibilité des matières
+* Emballage / présentation si nécessaire
+
+🇫🇷 Les avantages du prêt-à-personnaliser
+✔ Délais raccourcis
+✔ Aucun risque de coupe ou de patronage
+✔ Qualité garantie (nos modèles ont déjà fait leurs preuves)
+✔ Budget maîtrisé
+✔ Production française en petites et moyennes séries
+
+✨ Pourquoi choisir cette solution ?
+Parce qu'elle allie simplicité, efficacité et qualité.
+Vous bénéficiez de pièces déjà optimisées, tout en affirmant votre identité propre.
+👉 Demander un devis
+👉 Voir les autres solutions
+
+
+🔵 SOLUTION 2 - SEMI-SUR-MESURE
+Votre vêtement, votre style. Sur une base solide.
+Le semi-sur-mesure est l'équilibre parfait entre créativité et sécurité.
+Vous partez d'un modèle Gentle éprouvé, puis vous adaptez ce qui fait la différence : la matière, la couleur, les finitions, les détails qui transforment une bonne pièce en votre pièce.
+C'est une solution qui vous offre une grande liberté, sans les contraintes d'une création complète.
+
+🎯 Pour qui ?
+* Marques qui veulent affirmer leur identité stylistique
+* Entreprises qui souhaitent un vêtement corporate vraiment différenciant
+* Boutiques qui veulent une pièce signature plus poussée
+* Institutions souhaitant un rendu impeccable et durable
+
+🧵 Ce que vous adaptez
+* Matières (coton bio, recyclé, technique...)
+* Coloris précis
+* Finitions : bord-côte, boutons, zip, cols, poches
+* Détails esthétiques
+* Identité visuelle (broderie, étiquette, marquage)
+
+🇫🇷 Les avantages du semi-sur-mesure
+✔ Plus de liberté créative
+✔ Maîtrise technique assurée grâce à notre base existante
+✔ Délais raisonnables
+✔ Fabrication française contrôlée
+✔ Flexibilité sur les séries
+
+✨ Pourquoi choisir cette solution ?
+Parce qu'elle vous permet d'obtenir un vêtement authentiquement à votre image, tout en bénéficiant de notre expertise et d'un cadre fiable.
+👉 Demander un devis
+👉 Découvrir la co-création
+
+
+🔵 SOLUTION 3 - CO-CRÉATION COMPLÈTE
+Votre idée devient un vêtement. De la première esquisse à la dernière couture.
+La co-création complète est la solution la plus ambitieuse - celle où tout commence par votre vision.
+Nous concevons votre pièce intégralement : style, patronage, sourcing des matières, prototypage, ajustements, jusqu'à la fabrication finale dans nos ateliers français.
+Vous créez une pièce unique.
+Nous garantissons qu'elle soit bien faite, cohérente et durable.
+
+🎯 Pour qui ?
+* Marques établies ou en lancement avec une vision forte
+* Entreprises qui veulent un vêtement conçu exclusivement pour elles
+* Boutiques premium souhaitant une pièce signature différenciante
+* Institutions avec un projet textile identitaire
+
+🧵 Notre méthode en co-création
+1. Cadrage du projet : usages, univers, volumes, contraintes
+2. Style & construction : moodboard, croquis, choix techniques
+3. Patronage & mise au point
+4. Sélection matières : coton bio, recyclé, technique, lin français...
+5. Prototypage & ajustements
+6. Validation finale
+7. Fabrication française en petites ou moyennes séries
+
+🇫🇷 Les avantages de la co-création
+✔ Liberté créative totale
+✔ Accompagnement expert, étape par étape
+✔ Résultat sur-mesure et unique
+✔ Qualité, transparence et traçabilité
+✔ Production française maîtrisée
+
+✨ Pourquoi choisir cette solution ?
+Parce qu'elle permet de créer un vêtement qui n'existe nulle part ailleurs, et qui correspond exactement à votre identité, vos valeurs et vos exigences.
+👉 Demander un devis
+👉 Voir les réalisations
+
+PAGE 1 - FABRICATION & SAVOIR-FAIRE
+Créer en France, avec sérieux, précision et respect.
+La fabrication n'est pas une simple étape dans le développement d'un vêtement : c'est la garantie de sa qualité, de sa durabilité et de son intégrité.
+Nous avons choisi de produire en France pour préserver un savoir-faire textile précieux, assurer une maîtrise totale des pièces et garantir la transparence que nous jugeons indispensable.
+Chaque vêtement fabriqué dans nos ateliers est le résultat d'un travail exigeant, rigoureux et profondément humain.
+
+🇫🇷 Nos engagements de fabrication
+1. Une production 100 % française
+Nos ateliers sont situés dans trois régions reconnues pour leur expertise textile :
+* Vosges : tricotage et ennoblissement
+* Chessy-les-Mines : teinture, savoir-faire couleur
+* Roubaix : confection, finitions, mise au point
+Chaque site possède une spécialité historique qui se reflète dans la qualité de votre pièce.
+2. Une maîtrise totale
+De la matière première au vêtement final, chaque étape est suivie, validée et tracée.
+Vous savez où, comment et par qui votre pièce est fabriquée.
+3. Une qualité constante
+Nous travaillons avec les mêmes ateliers que pour les collections Gentle Factory :
+le même niveau d'exigence, la même attention aux détails, les mêmes standards.
+4. Une production responsable
+Matières responsables, limitation des transports, durabilité pensée dès la conception :
+notre fabrication s'inscrit dans une démarche cohérente, loin du textile jetable.
+
+🎯 Pourquoi produire en France ?
+* Pour réduire l'impact environnemental
+* Pour maintenir un tissu industriel essentiel
+* Pour garantir une qualité irréprochable
+* Pour gagner en réactivité
+* Pour vous offrir une transparence totale
+Créer local, c'est créer juste.
+👉 Découvrir nos ateliers
+👉 En savoir plus sur nos matières
+
+
+
+
+ PAGE 2 - NOS ATELIERS
+Chaque atelier a une histoire. Votre pièce en bénéficiera.
+Nous avons choisi des partenaires français pour leur expertise, leur rigueur et leur respect des métiers textiles.
+Créer avec eux, c'est préserver un savoir-faire et garantir un niveau de qualité élevé.
+
+🏭 Vosges - Tricotage & ennoblissement
+Région textile historique, les Vosges abritent des ateliers spécialisés dans :
+* le tricotage de mailles
+* le lavage
+* l'ennoblissement
+* le contrôle qualité intermédiaire
+Résultat : un rendu impeccable, une tenue dans le temps, et un toucher incomparable.
+
+🎨 Chessy-les-Mines - Teinture & transformation matière
+Là où la couleur prend vie.
+Nos partenaires maîtrisent :
+* les bains de teinture
+* la stabilisation
+* les contrôles de nuance
+* les finitions techniques
+Une précision essentielle pour garantir un rendu fiable et durable.
+
+✂️ Roubaix - Conception & confection
+Notre cœur textile.
+C'est ici que vos pièces prennent forme : coupe, assemblage, finitions, étiquettes...
+C'est également ici que nous validons les prototypes et que nous assurons la cohérence globale.
+
+✨ Pourquoi ces ateliers ?
+Parce qu'ils partagent les mêmes valeurs : sérieux, précision, respect du geste, responsabilité.
+👉 Découvrir notre fabrication globale
+
+
+
+
+ PAGE 3 - NOS MATIÈRES
+Choisir la bonne matière, c'est définir l'âme de votre vêtement.
+Nous sélectionnons chaque fibre avec attention : sa provenance, sa durabilité, sa tenue, son impact.
+Créer un vêtement responsable commence par choisir une matière responsable.
+
+🌱 Coton biologique
+Certifié, tracé, durable.
+Parfait pour les tee-shirts, sweats, polos, vêtements du quotidien haut de gamme.
+?? Fibres recyclées
+Issues de chutes ou textiles recyclés.
+Idéales pour les sweats, tricots ou pièces plus structurées, sans concession sur le confort.
+🧵 Matières techniques
+Polyesters haute performance, fibres hybrides, toiles durables.
+Pour les entreprises, les usages professionnels ou les pièces plus sophistiquées.
+🌾 Lin
+Local, naturel, élégant.
+Pour des chemises, tee-shirts et textiles estivaux responsables.
+
+🎯 Pourquoi ces matières ?
+* pour leur durabilité
+* pour leur traçabilité
+* pour leur confort
+* pour leur esthétique
+* pour leur cohérence responsable
+👉 En savoir plus sur la fabrication
+👉 Demander un devis
+
+
+
+
+
+
+ PAGE 4 - NOS ENGAGEMENTS
+Créer mieux, durablement et en transparence.
+Nos engagements ne sont pas des slogans : ce sont des choix stratégiques, assumés depuis plus de dix ans.
+
+♻️ Responsabilité
+Chaque décision - matière, atelier, finition - est prise avec l'impact en tête.
+🧵 Durabilité
+Nos pièces ne sont pas faites pour quelques usages : elles sont pensées pour durer.
+🇫🇷 Fabrication locale
+Travailler en France, c'est soutenir l'industrie textile et garantir une qualité cohérente.
+🔍 Transparence
+Nous savons où, comment et par qui chaque pièce est fabriquée.
+Et vous le saurez aussi.
+✨ Accompagnement humain
+Comprendre vos besoins, vous guider, structurer votre projet :
+nous avançons avec vous, pas à votre place.
+
+👉 Découvrir notre savoir-faire
+👉 Voir nos réalisations
+
+
+
+
+PAGE 5 - RÉALISATIONS
+Des projets concrets. Des pièces pensées pour durer.
+Chaque projet raconte une histoire : celle d'une marque, d'une entreprise ou d'une institution qui a choisi de créer mieux, avec sens et cohérence.
+Voici quelques exemples de réalisations menées dans nos ateliers français.
+ Exemple 1 - Entreprise : Sweat premium corporate pour GT logistics
+Objectif : moderniser l'image interne avec une pièce qualitative.
+Solution : semi-sur-mesure (coton bio, broderie ton sur ton, coupe droite), livraison en 6 semaines.
+Résultat : 92 % de collaborateurs le portent en dehors du travail.
+
+Exemple 2 - Fédérations : Habiller les entraineurs de l'équipe de France masculine et féminine
+Objectif : développer une pièce emblématique pour un lancement de marque.
+Solution : co-création complète (patronage, choix matière, prototypage).
+Résultat : 3 réassorts en 3 mois, retours clients excellents.  Exemple 3 - Entreprise : Sweat premium corporate pour Moulin d'ascq
+Objectif : moderniser l'image interne avec une pièce qualitative.
+Solution : semi-sur-mesure (coton bio, broderie ton sur ton, coupe droite), livraison en 6 semaines.
+Résultat : 92 % de collaborateurs le portent en dehors du travail.
+
+🛍️ Exemple 4 - Boutique : Série limitée
+Objectif : créer un produit exclusif cohérent avec la sélection boutique.
+Solution : prêt-à-personnaliser + finitions spécifiques.
+Résultat : série vendue en 12 jours.
+
+👉 Démarrer le vôtre
+
+PAGE 6 - CONTACT & DEVIS
+Parlons de votre projet.
+Nous vous répondons sous 24 à 48h, avec les premières orientations, une analyse rapide de votre besoin, et les solutions les plus adaptées.
+Formulaire :
+* Nom / Entreprise
+* Email
+* Téléphone
+* Type de projet
+* Segment (Marque / Entreprise / Boutique / Institution)
+* Niveau de personnalisation souhaité
+* Quantités estimées
+* Message
+👉 Envoyer ma demande
+👉 Prendre un rendez-vous
+
+
+
+
+PAGE 7 - BLOG & RESSOURCES
+Comprendre, choisir, créer - avec clarté.
+Nous vous aidons à avancer avec des contenus pédagogiques, pensés pour répondre aux vraies questions que se posent nos clients.
+
+📝 Articles de lancement (inclus)
+1. Comment faire fabriquer un vêtement en France : le guide essentiel
+- Délais, matières, séries, pièges à éviter, budget, etc.
+2. Lancer sa marque de vêtements : les erreurs les plus fréquentes
+- Ce qui fonctionne, ce qui bloque, comment s'organiser.
+3. Textile corporate : comment choisir un vêtement que vos équipes porteront vraiment ?
+- Clés d'usage, durabilité, styles, retours clients.
+👉 Lire les articles
+
+

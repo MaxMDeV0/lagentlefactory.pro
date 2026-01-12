@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Gentil Factory - Vos vêtements fabriqués à votre image</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-blue': '#293279',
+            'cta-red': '#96101C'
+          },
+          fontFamily: {
+            karla: ['Karla', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Specific styles that are more convenient as CSS classes for reusability */
+    .lgf-input {
+      background: transparent;
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      border-radius: 8px;
+      color: #ffffff;
+      padding: 0.75rem 1rem;
+    }
+    .lgf-textarea {
+      background: transparent;
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      border-radius: 8px;
+      color: #ffffff;
+      padding: 0.75rem 1rem;
+      min-height: 120px;
+    }
+    .lgf-label {
+      display: block;
+      color: rgba(255, 255, 255, 0.9);
+      background: transparent;
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .lgf-checkbox {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.75rem;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      background: rgba(255, 255, 255, 0.06);
+      transition: background .15s ease, border-color .15s ease;
+      position: relative;
+    }
+    .lgf-checkbox:checked {
+      background: #ffffff;
+      border-color: #ffffff;
+    }
+    .lgf-checkbox:checked::after {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 0px;
+      width: 6px;
+      height: 12px;
+      border: solid #293279;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+    }
+    .lgf-option {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      background: rgba(255, 255, 255, 0.04);
+      color: #ffffff;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      transition: all 0.2s ease;
+    }
+    .lgf-option:has(input:checked) {
+      background-color: #ffffff !important;
+      color: #293279 !important;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased font-karla text-[16px]">
+  <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
