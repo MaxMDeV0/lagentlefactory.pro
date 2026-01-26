@@ -2,17 +2,17 @@ import React from "react";
 
 const temoignages = [
   {
-    photo: "/public/media/temoignage-createur.jpg",
+    photo: "/media/temoignage-createur.jpg",
     nom: "Julie, créatrice de marque éco-responsable",
     citation: "La Gentle Factory nous a permis de concrétiser notre vision avec exigence et transparence."
   },
   {
-    photo: "/public/media/temoignage-rse.jpg",
+    photo: "/media/temoignage-rse.jpg",
     nom: "Marc, Directeur RSE d'une entreprise",
     citation: "Un vrai partenaire, force de proposition et d'accompagnement sur toute la chaîne de valeur."
   },
   {
-    photo: "/public/media/temoignage-boutique.jpg",
+    photo: "/media/temoignage-boutique.jpg",
     nom: "Sophie, propriétaire de boutique concept",
     citation: "La confiance et la qualité sont au rendez-vous, nos clients le ressentent."
   }

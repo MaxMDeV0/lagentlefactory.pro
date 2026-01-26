@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const HeroEngagements: React.FC = () => (
-  <section className="relative min-h-[60vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/public/media/atelier-hero.jpg')" }}>
+  <section className="relative min-h-[60vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/media/atelier-hero.jpg')" }}>
     <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
     <div className="relative z-10 text-center text-white px-4 py-24 flex flex-col items-center justify-center">
       <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Nos engagements responsables</h1>

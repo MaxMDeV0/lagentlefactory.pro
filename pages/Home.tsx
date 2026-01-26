@@ -1,12 +1,11 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import BlueSection from '../components/BlueSection';
-import RedSection from '../components/RedSection';
-import OfferCards from '../components/OfferCards';
-import Solutions from '../components/Solutions';
-import Artisanat from '../components/Artisanat';
-import Clients from '../components/Clients';
-import ContactForm from '../components/ContactForm';
+import Hero from '../components/home//Hero';
+import BlueSection from '../components/home/BlueSection';
+import RedSection from '../components/home/RedSection';
+import OfferCards from '../components/home/OfferCards';
+import Solutions from '../components/home/Solutions';
+import Artisanat from '../components/home/Artisanat';
+import Clients from '../components/home/Clients';
 
 const Home: React.FC = () => {
   return (
@@ -19,7 +18,6 @@ const Home: React.FC = () => {
       <Solutions />
       <Artisanat />
       <Clients />
-      <ContactForm />
     </main>
   );
 };

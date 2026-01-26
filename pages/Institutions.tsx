@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AccentSectionA from '../components/AccentSectionA';
-import AccentSectionB from '../components/AccentSectionB';
+import AccentSectionA from '../components/institutions/AccentSectionA';
+import AccentSectionB from '../components/institutions/AccentSectionB';
 
 const Institutions: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Institutions: React.FC = () => {
       {/* Large visual banner similar but distinct from BlueSection */}
       <section
         className="relative bg-cover bg-center min-h-[320px] flex items-center"
-        style={{ backgroundImage: "url('public/media/banner.png')" }}
+        style={{ backgroundImage: "url('media/banner.png')" }}
         aria-label="Bannière institutions"
       >
         <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
@@ -60,7 +60,7 @@ const Institutions: React.FC = () => {
           </div>
 
           <div className="rounded-xl overflow-hidden border">
-            <img src="./public/media/homme-mariniere-lgf.png" alt="Exemple tenue institution" className="w-full object-cover h-64" />
+            <img src="./media/homme-mariniere-lgf.png" alt="Exemple tenue institution" className="w-full object-cover h-64" />
             <div className="p-6">
               <h4 className="font-bold mb-2">Exemple : tenue de club</h4>
               <p className="text-primary-blue/80">Un kit complet comprenant training, t-shirt d'équipe et sweat, fabriqué pour résister et être réédité chaque saison.</p>
@@ -105,15 +105,15 @@ const Institutions: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="border rounded-lg overflow-hidden">
-              <img src="./public/media/bonnets-famille-lgf.png" alt="Hoodie club" className="w-full h-40 object-cover" />
+              <img src="./media/bonnets-famille-lgf.png" alt="Hoodie club" className="w-full h-40 object-cover" />
               <div className="p-4 text-primary-blue/80">Capsule performante pour club local — série limitée.</div>
             </div>
             <div className="border rounded-lg overflow-hidden">
-              <img src="./public/media/boutique-la-gentle-factory.png" alt="Collection boutique" className="w-full h-40 object-cover" />
+              <img src="./media/boutique-la-gentle-factory.png" alt="Collection boutique" className="w-full h-40 object-cover" />
               <div className="p-4 text-primary-blue/80">Collection exclusive pour concept-store partenaire.</div>
             </div>
             <div className="border rounded-lg overflow-hidden">
-              <img src="./public/media/ffe-logo.svg" alt="Projet fédération" className="w-full h-40 object-contain bg-white p-6" />
+              <img src="./media/ffe-logo.svg" alt="Projet fédération" className="w-full h-40 object-contain bg-white p-6" />
               <div className="p-4 text-primary-blue/80">Étude de cas : uniformes techniques pour une fédération.</div>
             </div>
           </div>

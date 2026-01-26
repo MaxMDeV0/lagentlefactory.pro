@@ -1,14 +1,14 @@
 import React from "react";
 
 const labels = [
-  { logo: "/public/media/gots-logo.svg", titre: "GOTS", desc: "Global Organic Textile Standard : certification bio et sociale", link: "https://www.global-standard.org/fr" },
-  { logo: "/public/media/oeko-tex-logo.svg", titre: "Oeko-Tex Standard 100", desc: "Absence de substances nocives dans les textiles", link: "https://www.oeko-tex.com/fr/" },
-  { logo: "/public/media/grs-logo.svg", titre: "GRS", desc: "Global Recycled Standard : certification matières recyclées", link: "https://globalrecycledstandard.com/" },
-  { logo: "/public/media/made-in-france.svg", titre: "Made in France", desc: "Production 100% française", link: "https://www.madeinfrance.org/" },
-  { logo: "/public/media/origine-france-garantie.svg", titre: "Origine France Garantie", desc: "Traçabilité et origine française certifiée", link: "https://www.originefrancegarantie.fr/" },
-  { logo: "/public/media/masters-of-linen.svg", titre: "Masters of Linen", desc: "Label européen du lin de qualité", link: "https://www.mastersoflinen.com/" },
-  { logo: "/public/media/bcorp-logo.svg", titre: "B Corp", desc: "Certification entreprise à impact positif (en cours)", link: "https://www.bcorporation.fr/" },
-  { logo: "/public/media/epv-logo.svg", titre: "EPV", desc: "Entreprise du Patrimoine Vivant : savoir-faire d'excellence", link: "https://www.institut-metiersdart.org/epv" }
+  { logo: "/media/gots-logo.svg", titre: "GOTS", desc: "Global Organic Textile Standard : certification bio et sociale", link: "https://www.global-standard.org/fr" },
+  { logo: "/media/oeko-tex-logo.svg", titre: "Oeko-Tex Standard 100", desc: "Absence de substances nocives dans les textiles", link: "https://www.oeko-tex.com/fr/" },
+  { logo: "/media/grs-logo.svg", titre: "GRS", desc: "Global Recycled Standard : certification matières recyclées", link: "https://globalrecycledstandard.com/" },
+  { logo: "/media/made-in-france.svg", titre: "Made in France", desc: "Production 100% française", link: "https://www.madeinfrance.org/" },
+  { logo: "/media/origine-france-garantie.svg", titre: "Origine France Garantie", desc: "Traçabilité et origine française certifiée", link: "https://www.originefrancegarantie.fr/" },
+  { logo: "/media/masters-of-linen.svg", titre: "Masters of Linen", desc: "Label européen du lin de qualité", link: "https://www.mastersoflinen.com/" },
+  { logo: "/media/bcorp-logo.svg", titre: "B Corp", desc: "Certification entreprise à impact positif (en cours)", link: "https://www.bcorporation.fr/" },
+  { logo: "/media/epv-logo.svg", titre: "EPV", desc: "Entreprise du Patrimoine Vivant : savoir-faire d'excellence", link: "https://www.institut-metiersdart.org/epv" }
 ];
 
 const CertificationsLabelsSection: React.FC = () => (

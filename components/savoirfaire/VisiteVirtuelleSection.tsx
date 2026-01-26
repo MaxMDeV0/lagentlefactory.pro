@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const medias = [
-  { src: "/public/media/atelier-tricotage.jpg", legend: "Atelier de tricotage en action" },
-  { src: "/public/media/cuves-teinture.jpg", legend: "Cuves de teinture" },
-  { src: "/public/media/confection-manuelle.jpg", legend: "Confection manuelle" },
-  { src: "/public/media/controle-qualite.jpg", legend: "Contrôle qualité" },
-  { src: "/public/media/equipe-travail.jpg", legend: "Équipes au travail" }
+  { src: "/media/atelier-tricotage.jpg", legend: "Atelier de tricotage en action" },
+  { src: "/media/cuves-teinture.jpg", legend: "Cuves de teinture" },
+  { src: "/media/confection-manuelle.jpg", legend: "Confection manuelle" },
+  { src: "/media/controle-qualite.jpg", legend: "Contrôle qualité" },
+  { src: "/media/equipe-travail.jpg", legend: "Équipes au travail" }
 ];
 
 const VisiteVirtuelleSection: React.FC = () => (

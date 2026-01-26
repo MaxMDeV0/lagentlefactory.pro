@@ -1,9 +1,9 @@
 import React from "react";
 
 const projets = [
-  { img: "/public/media/projet-coton.jpg", matiere: "Coton bio", titre: "T-shirt coton bio pour marque streetwear", resultat: "Confort premium, impact réduit, image responsable" },
-  { img: "/public/media/projet-recycle.jpg", matiere: "Recyclé", titre: "Sweat recyclé pour entreprise tech", resultat: "Réduction CO2, qualité équivalente au neuf, communication RSE" },
-  { img: "/public/media/projet-lin.jpg", matiere: "Lin français", titre: "Chemise lin pour boutique premium", resultat: "Fraîcheur, élégance, traçabilité locale" },
+  { img: "/media/projet-coton.jpg", matiere: "Coton bio", titre: "T-shirt coton bio pour marque streetwear", resultat: "Confort premium, impact réduit, image responsable" },
+  { img: "/media/projet-recycle.jpg", matiere: "Recyclé", titre: "Sweat recyclé pour entreprise tech", resultat: "Réduction CO2, qualité équivalente au neuf, communication RSE" },
+  { img: "/media/projet-lin.jpg", matiere: "Lin français", titre: "Chemise lin pour boutique premium", resultat: "Fraîcheur, élégance, traçabilité locale" },
 ];
 
 const TemoignagesMatieresSection: React.FC = () => (

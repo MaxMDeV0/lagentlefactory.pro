@@ -9,7 +9,7 @@ const blocs = [
       "Mailles complexes possibles",
       "Productivité et qualité"
     ],
-    img: "/public/media/tricotage-moderne.jpg",
+    img: "/media/tricotage-moderne.jpg",
     alt: "Métiers à tricoter"
   },
   {
@@ -20,7 +20,7 @@ const blocs = [
       "Process écologiques",
       "Tests colorimétriques"
     ],
-    img: "/public/media/teinture-haute-precision.jpg",
+    img: "/media/teinture-haute-precision.jpg",
     alt: "Cuves de teinture"
   },
   {
@@ -31,7 +31,7 @@ const blocs = [
       "Finitions impeccables",
       "Contrôle qualité humain"
     ],
-    img: "/public/media/confection-artisanale.jpg",
+    img: "/media/confection-artisanale.jpg",
     alt: "Artisan au travail"
   }
 ];

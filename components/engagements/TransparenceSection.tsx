@@ -41,7 +41,7 @@ const TransparenceSection: React.FC = () => (
         <Link to="/fabrication" className="inline-block bg-cta-red hover:bg-primary-blue transition-all font-bold rounded-full px-8 py-4 uppercase text-lg shadow-lg">Voir notre fabrication</Link>
       </div>
       <div>
-        <img src="./public/media/infographie-transparence.jpg" alt="Infographie transparence" className="rounded-2xl shadow-lg w-full object-cover" />
+        <img src="./media/infographie-transparence.jpg" alt="Infographie transparence" className="rounded-2xl shadow-lg w-full object-cover" />
       </div>
     </div>
   </section>

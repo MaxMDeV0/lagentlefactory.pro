@@ -7,9 +7,9 @@ const MarquesCreateurs: React.FC = () => {
       <div className="max-w-[1200px] mx-auto px-6 py-24">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6">Créer votre collection de vêtements</h1>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-3">Ce que nous faisons pour les créateurs</h2>
-          <p className="text-lg text-primary-blue/80 leading-relaxed">
+        <section className="mb-12 bg-[#293279] p-8">
+          <h2 className="text-2xl text-white font-bold mb-3">Ce que nous faisons pour les créateurs</h2>
+          <p className="text-lg text-white leading-relaxed ">
             Nous accompagnons les marques et créateurs à chaque étape : étude de faisabilité, choix des matières,
             prototypage, industrialisation et production. Notre objectif : transformer votre idée en une pièce
             parfaitement fabriquée en France, respectueuse de votre identité et de vos contraintes de volumes.
@@ -55,8 +55,8 @@ const MarquesCreateurs: React.FC = () => {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="./public/media/boutique-la-gentle-factory.png" alt="Atelier" className="w-full rounded-xl shadow-lg object-cover h-64" />
-            <img src="./public/media/equipe-lgf-escalier.png" alt="Équipe" className="w-full rounded-xl shadow-lg object-cover h-64" />
+            <img src="./media/boutique-la-gentle-factory.png" alt="Atelier" className="w-full rounded-xl shadow-lg object-cover h-64" />
+            <img src="./media/equipe-lgf-escalier.png" alt="Équipe" className="w-full rounded-xl shadow-lg object-cover h-64" />
           </div>
         </section>
 

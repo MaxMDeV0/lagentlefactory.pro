@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <Link to="/" className="inline-flex items-center">
-              <img src="./public/media/logo.svg" alt="La Gentil Factory" className="h-16 md:h-20 w-auto" />
+              <img src="./media/logo.svg" alt="La Gentle Factory" className="h-16 md:h-20 w-auto" />
             </Link>
           </div>
 
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
                 >
                   <div className="p-6 grid grid-cols-4 gap-6 text-[#293279] text-sm">
                     <div>
-                      <h4 className="font-bold mb-2">Faire fabriquer vos vêtements en France</h4>
+                      <h4 className="font-bold mb-2 uppercase">Faire fabriquer vos vêtements en France</h4>
                       <ul className="space-y-1">
                         <li>
                           <Link to="/marques-createurs" className="hover:underline">Pour les marques &amp; créateurs</Link>
@@ -100,18 +100,18 @@ const Header: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2">Nos solutions</h4>
+                      <h4 className="font-bold mb-2 uppercase"><Link to="/nos-solutions">Nos solutions</Link></h4>
                       <ul className="space-y-1">
                         <li>
-                          <Link to="/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link>
+                          <Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link>
                         </li>
-                        <li><Link to="/semi-sur-mesure" className="hover:underline">Semi-sur-mesure</Link></li>
-                        <li><Link to="/co-creation-complete" className="hover:underline">Co-création complète</Link></li>
+                        <li><Link to="/nos-solutions/semi-sur-mesure" className="hover:underline">Semi-sur-mesure</Link></li>
+                        <li><Link to="/nos-solutions/co-creation-complete" className="hover:underline">Co-création complète</Link></li>
                       </ul>
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2">Fabrication &amp; savoir-faire</h4>
+                      <h4 className="font-bold mb-2 uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h4>
                       <ul className="space-y-1">
                         <li><Link to="/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
                         <li><Link to="/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
@@ -120,7 +120,7 @@ const Header: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2">Réalisations</h4>
+                      <h4 className="font-bold mb-2 uppercase">Réalisations</h4>
                       <ul className="space-y-1">
                         <li>Études de cas (avant/après + photos)</li>
                       </ul>
@@ -255,7 +255,7 @@ const Header: React.FC = () => {
                     {megaOpen && (
                       <div className="mt-3 pl-3 text-base space-y-4">
                         <div>
-                          <h5 className="font-bold">Faire fabriquer vos vêtements en France</h5>
+                          <h5 className="font-bold uppercase">Faire fabriquer vos vêtements en France</h5>
                           <ul className="mt-2 space-y-1">
                             <li><Link to="/marques-createurs" className="hover:underline">Pour les marques &amp; créateurs</Link></li>
                             <li><Link to="/entreprises" className="hover:underline">Pour les entreprises</Link></li>
@@ -265,16 +265,16 @@ const Header: React.FC = () => {
                         </div>
 
                         <div>
-                          <h5 className="font-bold">Nos solutions</h5>
+                          <h5 className="font-bold uppercase hover:cursor-pointer"><Link to="/nos-solutions">Nos solutions</Link></h5>
                           <ul className="mt-2 space-y-1">
-                            <li><Link to="/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link></li>
-                            <li><Link to="/semi-sur-mesure" className="hover:underline">Semi-sur-mesure</Link></li>
-                            <li><Link to="/co-creation-complete" className="hover:underline">Co-création complète</Link></li>
+                            <li><Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link></li>
+                            <li><Link to="/nos-solutions/semi-sur-mesure" className="hover:underline">Semi-sur-mesure</Link></li>
+                            <li><Link to="/nos-solutions/co-creation-complete" className="hover:underline">Co-création complète</Link></li>
                           </ul>
                         </div>
 
                         <div>
-                          <h5 className="font-bold">Fabrication &amp; savoir-faire</h5>
+                          <h5 className="font-bold uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h5>
                           <ul className="mt-2 space-y-1">
                             <li><Link to="/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
                             <li><Link to="/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
@@ -283,7 +283,7 @@ const Header: React.FC = () => {
                         </div>
 
                         <div>
-                          <h5 className="font-bold">Réalisations</h5>
+                          <h5 className="font-bold uppercase">Réalisations</h5>
                           <ul className="mt-2 space-y-1">
                             <li>Études de cas (avant/après + photos)</li>
                           </ul>

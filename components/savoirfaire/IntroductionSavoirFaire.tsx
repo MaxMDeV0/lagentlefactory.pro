@@ -19,7 +19,7 @@ const IntroductionSavoirFaire: React.FC = () => (
         <div className="bg-primary-blue text-white rounded-xl p-4 shadow text-center font-black text-2xl md:text-3xl">100% de nos vêtements sont fabriqués en France</div>
       </div>
       <div>
-        <img src="./public/media/artisan-fabrication.jpg" alt="Artisan au travail" className="rounded-2xl shadow-lg w-full object-cover" />
+        <img src="./media/artisan-fabrication.jpg" alt="Artisan au travail" className="rounded-2xl shadow-lg w-full object-cover" />
       </div>
     </div>
   </section>

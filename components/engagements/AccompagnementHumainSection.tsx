@@ -26,7 +26,7 @@ const AccompagnementHumainSection: React.FC = () => (
         ))}
       </div>
       <blockquote className="italic mb-6">"Un vrai partenaire, pas juste un fournisseur"</blockquote>
-      <img src="./public/media/equipe-lgf-escalier.png" alt="Équipe La Gentle Factory" className="rounded-2xl shadow-lg w-full object-cover mb-6" />
+      <img src="./media/equipe-lgf-escalier.png" alt="Équipe La Gentle Factory" className="rounded-2xl shadow-lg w-full object-cover mb-6" />
       <Link to="/contact" className="inline-block bg-white text-cta-red hover:bg-primary-blue hover:text-white transition-all font-bold rounded-full px-8 py-4 uppercase text-lg shadow-lg">Parler de votre projet</Link>
     </div>
   </section>
