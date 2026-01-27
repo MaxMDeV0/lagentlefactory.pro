@@ -1,62 +1,74 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Hero from '@/components/global/ColorHero';
+import Breadcrumb from '@/components/global/Breadcrumb';
+import Cards from '../components/global/SolutionsCards';
+import ContactSection from '@/components/global/ContactSection';
+import Section from '@/components/global/Section';
 
 const MarquesCreateurs: React.FC = () => {
   return (
     <main className="bg-white text-primary-blue min-h-screen mt-12">
-      <div className="max-w-[1200px] mx-auto px-6 py-24">
+      <div className="max-w-[1200px] mx-auto px-6 pt-24">
+        <Breadcrumb />
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6">Créer votre collection de vêtements</h1>
+        <Hero
+          bgColor="bg-[#293279]"
+          title="Ce que nous faisons pour les créateurs"
+          description={
+            <>
+              Nous accompagnons les marques et créateurs à chaque étape : étude de faisabilité, choix des matières,
+              prototypage, industrialisation et production. Notre objectif : transformer votre idée en une pièce
+              parfaitement fabriquée en France, respectueuse de votre identité et de vos contraintes de volumes.
+            </>
+          }
+        />
 
-        <section className="mb-12 bg-[#293279] p-8">
-          <h2 className="text-2xl text-white font-bold mb-3">Ce que nous faisons pour les créateurs</h2>
-          <p className="text-lg text-white leading-relaxed ">
-            Nous accompagnons les marques et créateurs à chaque étape : étude de faisabilité, choix des matières,
-            prototypage, industrialisation et production. Notre objectif : transformer votre idée en une pièce
-            parfaitement fabriquée en France, respectueuse de votre identité et de vos contraintes de volumes.
-          </p>
-        </section>
+        <Section
+          title='Donner forme à votre vision. Avec un partenaire qui maîtrise la création textile
+de A à Z.'
+          description={<><div className="mb-4">Créer un vêtement, ce n’est pas simplement produire un modèle : c’est faire exister une idée,
+            traduire un univers, affirmer une identité.
+            Si vous lancez votre marque, ou développez une nouvelle collection, vous avez besoin d’un
+            accompagnement clair, fiable, et d’une fabrication à la hauteur de vos ambitions.</div><div>C’est exactement ce que nous proposons : une expertise textile solide, un savoir-faire français,
+              et un cadre méthodique qui vous permet d’avancer avec confiance.</div></>}
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Trois façons de créer votre pièce</h2>
+        />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <article className="p-6 border rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Prêt-à-personnaliser</h3>
-              <p className="text-sm text-primary-blue/80">
-                Choisissez une base (coupe, grammage, couleur) et personnalisez-la : broderie, sérigraphie,
-                étiquette, packaging. Rapide et économique pour les petites séries.
-              </p>
-            </article>
-
-            <article className="p-6 border rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Semi-sur-mesure</h3>
-              <p className="text-sm text-primary-blue/80">
-                Adaptation d'un patron existant à vos spécifications : ajustements de coupe, choix de matières
-                premium et finitions sur-mesure. Idéal pour tester une nouvelle pièce.
-              </p>
-            </article>
-
-            <article className="p-6 border rounded-xl shadow-sm">
-              <h3 className="text-xl font-semibold mb-2">Co-création complète</h3>
-              <p className="text-sm text-primary-blue/80">
-                Du design initial jusqu'à la production, nous travaillons main dans la main avec vous : sourcing,
-                prototypage, essais, validation, et série finale fabriquée en France.
-              </p>
-            </article>
-          </div>
-        </section>
+        <Cards title='Trois façons de créer votre pièce' />
 
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Fabrication française</h2>
+          <h2 className="text-2xl font-bold mb-4"><mark className="bg-[#293279] text-white p-1">Une fabrication française maîtrisée</mark></h2>
           <p className="text-primary-blue/80 mb-6">
             Nos ateliers partenaires sont basés en France et respectent des standards élevés de qualité et de
             conformité sociale. Nous privilégions des matières locales et responsables (coton bio, fibres recyclées,
             filaments techniques) afin de limiter l'empreinte carbone et assurer une traçabilité complète.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="./media/boutique-la-gentle-factory.png" alt="Atelier" className="w-full rounded-xl shadow-lg object-cover h-64" />
-            <img src="./media/equipe-lgf-escalier.png" alt="Équipe" className="w-full rounded-xl shadow-lg object-cover h-64" />
+          <div className="grid grid-cols-1 lg:grid-cols-[50%_50%] gap-6 w-full max-w-[1128px] ">
+
+            {/* Rouge */}
+            <div className=" w-full h-full aspect-square   " >
+              <img src="./media/1.jpg" alt="Rouge" className="object-cover w-full h-full" />
+            </div>
+
+            {/* Colonne droite */}
+            <div className="grid grid-cols-1 md:grid-cols-[50%_50%] gap-6 w-full ">
+
+              {/* Bleu + Vert */}
+              <div className="flex flex-col gap-6">
+                <div className="bg-blue-100 w-full h-[50%]  aspect-square" >              <img src="./media/2.jpg" alt="Rouge" className="object-cover w-full h-full" />
+                </div>
+                <div className="bg-green-100 w-full h-[50%]  aspect-square " ><img src="./media/3.jpg" alt="Rouge" className="object-cover w-full h-full" /></div>
+              </div>
+
+              {/* Jaune */}
+              <div className="bg-yellow-100 w-[calc(100%-24px)] h-[100%]  " ><img src="./media/4.jpg" alt="Rouge" className="object-cover w-full h-full" /></div>
+
+            </div>
+          </div>
+
+          <div>
+
           </div>
         </section>
 
@@ -69,9 +81,7 @@ const MarquesCreateurs: React.FC = () => {
           </ul>
         </section>
 
-        <div className="mt-8">
-          <a href="#contact" className="inline-block bg-[#96101C] text-white px-5 py-3 rounded-full">Demander un devis</a>
-        </div>
+        <ContactSection />
       </div>
     </main>
   );

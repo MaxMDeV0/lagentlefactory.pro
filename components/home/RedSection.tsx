@@ -7,7 +7,7 @@ const RedSection: React.FC = () => {
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row items-center md:justify-between gap-8">
         <div className="md:w-2/3 w-full">
           <h3 className="font-extrabold text-2xl md:text-3xl leading-tight">
-            Une solution pensée pour tous ceux<br className="hidden md:block" />qui veulent du textile de qualité.
+            Une solution pensée pour tous ceux<br className="hidden md:block" /> qui veulent du textile de qualité.
           </h3>
         </div>
 
@@ -34,11 +34,11 @@ const RedSection: React.FC = () => {
               className="h-24 w-36"
             />
           </div>
-          <div className="label  p-4 rounded-xl flex items-center justify-center transition-transform " role="listitem" title="Fibres recyclées">
+          <div className="label  py-4 pr-4 pl-2 rounded-xl flex items-center justify-center transition-transform " role="listitem" title="Fibres recyclées">
             <img
-              src="./media/Picto_GF_Aide_Insertion_Pro.svg"
+              src="./media/Picto_GF_Aide_Insertion.svg"
               alt="Aides insertion professionnelle"
-              className="h-24 w-56"
+              className="h-24 w-40"
             />
           </div>
 
