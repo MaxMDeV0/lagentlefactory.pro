@@ -1,0 +1,24 @@
+revenir en haut de la page en cliquant sur le logo
+opacité du header
+tous ceux qui redsection espace
+menu mobile enlever
+logo aide a l'insertion red section
+fil d'ariane
+pas de radius sur les images
+
+- page marque et createurs
+photo pour la fabrication francaise
+ajouter un lien en savoir plus vers les ateliers
+
+-footer
+mention legale
+politiques de confidentialité
+plan du site
+contact
+lien vers le site marchand
+inscription a la news letter
+
+
+-page atelier
+image pleine pour le hero
+avec 
