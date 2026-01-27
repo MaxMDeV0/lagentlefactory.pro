@@ -113,9 +113,9 @@ const Header: React.FC = () => {
                     <div>
                       <h4 className="font-bold mb-2 uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h4>
                       <ul className="space-y-1">
-                        <li><Link to="/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
-                        <li><Link to="/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
-                        <li><Link to="/nos-engagements" className="hover:underline">Nos engagements responsables</Link></li>
+                        <li><Link to="/fabrication/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
+                        <li><Link to="/fabrication/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
+                        <li><Link to="/fabrication/nos-engagements" className="hover:underline">Nos engagements responsables</Link></li>
                       </ul>
                     </div>
 
@@ -276,9 +276,9 @@ const Header: React.FC = () => {
                         <div>
                           <h5 className="font-bold uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h5>
                           <ul className="mt-2 space-y-1">
-                            <li><Link to="/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
-                            <li><Link to="/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
-                            <li><Link to="/nos-engagements" className="hover:underline">Nos engagements responsables</Link></li>
+                            <li><Link to="/fabrication/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
+                            <li><Link to="/fabrication/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
+                            <li><Link to="/fabrication/nos-engagements" className="hover:underline">Nos engagements responsables</Link></li>
                           </ul>
                         </div>
 

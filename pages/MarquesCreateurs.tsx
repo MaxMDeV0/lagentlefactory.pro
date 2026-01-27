@@ -60,17 +60,16 @@ const MarquesCreateurs: React.FC = () => {
           </div>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Pourquoi nous choisir ?</h2>
+        <section className="mb-12 bg-cta-red p-6">
+          <h2 className="text-2xl font-bold mb-4 text-white">Pourquoi nous choisir ?</h2>
           <ul className="grid grid-cols-1 md:grid-cols-3 gap-6 text-primary-blue/80">
-            <li className="p-4 border rounded-lg">Savoir-faire français : des ateliers sélectionnés pour leur qualité.</li>
-            <li className="p-4 border rounded-lg">Accompagnement complet du design à la livraison.</li>
-            <li className="p-4 border rounded-lg">Transparence sur les coûts, délais et matériaux.</li>
+            <li className="p-4 border rounded-lg text-white">Savoir-faire français : des ateliers sélectionnés pour leur qualité.</li>
+            <li className="p-4 border rounded-lg text-white">Accompagnement complet du design à la livraison.</li>
+            <li className="p-4 border rounded-lg text-white" >Transparence sur les coûts, délais et matériaux.</li>
           </ul>
         </section>
 
         <div className="mt-8">
-          <Link to="/" className="inline-block text-primary-blue/80 underline mr-4">Retour à l'accueil</Link>
           <a href="#contact" className="inline-block bg-[#96101C] text-white px-5 py-3 rounded-full">Demander un devis</a>
         </div>
       </div>

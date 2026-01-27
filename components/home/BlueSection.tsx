@@ -16,7 +16,7 @@ const BlueSection: React.FC = () => {
             entreprise, votre boutique ou votre club — avec un savoir-faire français et des matières responsables.
           </p>
           <a 
-            href="#devis"
+            href="#contact"
             className="inline-block bg-cta-red hover:bg-[#7a0d15] text-white px-8 py-3 rounded-full font-bold shadow-lg transition-colors text-lg"
           >
             DEMANDER UN DEVIS

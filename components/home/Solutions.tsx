@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Solutions: React.FC = () => {
   return (
@@ -23,7 +24,7 @@ const Solutions: React.FC = () => {
                 </ul>
               </div>
             </div>
-            <a href="#" className="inline-block mt-8 bg-white text-primary-blue px-6 py-3 rounded-full font-bold text-center transition-colors hover:bg-gray-100">EN SAVOIR PLUS</a>
+            <Link to="/nos-solutions/pret-a-personnaliser" className="inline-block mt-8 bg-white text-primary-blue px-6 py-3 rounded-full font-bold text-center transition-colors hover:bg-gray-100">EN SAVOIR PLUS</Link>
           </article>
 
           {/* Solution 2 */}
@@ -40,7 +41,7 @@ const Solutions: React.FC = () => {
                 </ul>
               </div>
             </div>
-            <a href="#" className="inline-block mt-8 bg-cta-red text-white px-6 py-3 rounded-full font-bold text-center transition-opacity hover:opacity-90">EN SAVOIR PLUS</a>
+            <Link to="/nos-solutions/semi-sur-mesure" className="inline-block mt-8 bg-cta-red text-white px-6 py-3 rounded-full font-bold text-center transition-opacity hover:opacity-90">EN SAVOIR PLUS</Link>
           </article>
 
           {/* Solution 3 */}
@@ -57,7 +58,7 @@ const Solutions: React.FC = () => {
                 </ul>
               </div>
             </div>
-            <a href="#" className="inline-block mt-8 bg-white text-primary-blue px-6 py-3 rounded-full font-bold text-center transition-colors hover:bg-gray-100">EN SAVOIR PLUS</a>
+            <Link to="/nos-solutions/co-creation-complete" className="inline-block mt-8 bg-white text-primary-blue px-6 py-3 rounded-full font-bold text-center transition-colors hover:bg-gray-100">EN SAVOIR PLUS</Link>
           </article>
         </div>
       </div>
