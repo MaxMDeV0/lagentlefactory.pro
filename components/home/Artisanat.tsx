@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Artisanat: React.FC = () => {
   return (
@@ -36,12 +37,12 @@ const Artisanat: React.FC = () => {
             </ul>
 
             <div className="text-center">
-              <a
-                href="#"
+              <Link
+                to="/fabrication/nos-ateliers"
                 className="inline-block bg-primary-blue hover:bg-[#1e2560] text-white px-8 py-4 rounded-full font-extrabold uppercase shadow-xl transition-all transform hover:-translate-y-1 text-lg"
               >
                 EN SAVOIR PLUS SUR LA FABRICATION
-              </a>
+              </Link>
             </div>
           </div>
         </div>

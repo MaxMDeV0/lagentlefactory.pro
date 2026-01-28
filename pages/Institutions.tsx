@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import AccentSectionA from '../components/institutions/AccentSectionA';
 import AccentSectionB from '../components/institutions/AccentSectionB';
+import Breadcrumb from '../components/global/Breadcrumb';
+import Hero from '@/components/global/ColorHero';
 
 const Institutions: React.FC = () => {
   return (
-    <main className="bg-white text-primary-blue min-h-screen mt-12">
+    <main className="bg-white text-primary-blue min-h-screen  pt-28">
       {/* Large visual banner similar but distinct from BlueSection */}
       <section
         className="relative bg-cover bg-center min-h-[320px] flex items-center"
@@ -22,25 +24,40 @@ const Institutions: React.FC = () => {
             pour représenter vos couleurs avec sérieux et responsabilité.
           </p>
           <div className="mt-6">
-            <a href="/#devis" className="inline-block bg-white text-primary-blue px-6 py-3 rounded-full font-bold">Demander un devis</a>
+            <a href="#contact" className="inline-block bg-white text-primary-blue px-6 py-3 rounded-full font-bold">Demander un devis</a>
           </div>
         </div>
       </section>
 
       <div className="max-w-[1200px] mx-auto px-6 py-16">
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-3">Ce que nous créons pour les institutions</h2>
-          <p className="text-lg text-primary-blue/85 leading-relaxed mb-4">
-            Nous réalisons des collections et des équipements pensés pour l'usage intensif : tenues d'entraînement,
-            tenues officielles, vestiaires et gammes événementielles. Chaque projet est traité comme une production
-            responsable, avec des choix matériaux et techniques adaptés aux contraintes d'un usage régulier.
-          </p>
-          <p className="text-primary-blue/80 leading-relaxed">
-            Notre approche combine conseil, prototypage et production locale : clarification du cahier des charges,
-            sélection de matières (bio, recyclées, techniques), développement du patronage, tests et ajustements,
-            puis fabrication en petites ou moyennes séries pour garantir la qualité et la traçabilité.
-          </p>
-        </section>
+        <Breadcrumb />
+        <Hero
+          bgColor="bg-[#293279]"
+          title=""
+          description={
+            <>
+              <div className="md:flex md:flex-row gap-4">
+                <div>
+                  <h2 className="font-extrabold text-2xl md:text-3xl mb-4">Ce que nous créons pour les institutions</h2>
+                  <p className="text-[16px] text-white leading-relaxed mb-4">
+                    Nous réalisons des collections et des équipements pensés pour l'usage intensif : tenues d'entraînement,
+                    tenues officielles, vestiaires et gammes événementielles. Chaque projet est traité comme une production
+                    responsable, avec des choix matériaux et techniques adaptés aux contraintes d'un usage régulier.
+                  </p>
+
+                </div>
+                <p className="text-[16px] text-white leading-relaxed">
+                  Notre approche combine conseil, prototypage et production locale : clarification du cahier des charges,
+                  sélection de matières (bio, recyclées, techniques), développement du patronage, tests et ajustements,
+                  puis fabrication en petites ou moyennes séries pour garantir la qualité et la traçabilité.
+                </p>
+
+              </div>
+            </>
+          }
+        />
+
+
 
         <section className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div>

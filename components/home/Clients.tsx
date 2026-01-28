@@ -9,19 +9,18 @@ interface ClientItemProps {
 
 const ClientItem: React.FC<ClientItemProps> = ({ name, projectImg, logo }) => (
   <div className="flex flex-col items-center text-center group space-y-6">
-    <div className="font-bold text-primary-blue text-xl tracking-wide group-hover:text-cta-red transition-colors">{name}</div>
-    <div className="w-[240px] h-[240px] xl:w-[280px] xl:h-[280px] overflow-hidden bg-gray-100 rounded-2xl shadow-lg border border-gray-100">
+    <div className="w-[240px] h-[240px] xl:w-[280px] xl:h-[280px] overflow-hidden bg-gray-100 shadow-lg border border-gray-100">
       <img
         src={projectImg}
         alt={`${name} - projet`}
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+        className="w-full h-full object-cover   "
       />
     </div>
     <div className="flex items-center justify-center h-16 w-full px-4">
       <img
         src={logo}
         alt={`${name} logo`}
-        className="max-h-12 w-auto object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+        className="max-h-16 w-auto object-contain filter transition-all duration-300"
       />
     </div>
   </div>
@@ -32,17 +31,17 @@ const Clients: React.FC = () => {
     {
       name: 'GT Logistics',
       projectImg: 'media/homme-mariniere-lgf.png',
-      logo: 'media/gt-logistics-logo.svg'
+      logo: 'media/gt-logo.png'
     },
     {
       name: "Moulin d'Ascq",
-      projectImg: 'media/bonnets-famille-lgf.png',
-      logo: 'media/moulin-dascq-logo.svg'
+      projectImg: 'media/equipe-moulin-dascq.jpg',
+      logo: 'media/moulin-dascq-logo.png'
     },
     {
       name: 'Rexel',
       projectImg: 'media/boutique-la-gentle-factory.png',
-      logo: 'media/rexel-logo.svg'
+      logo: 'media/Rexel-logo.png'
     },
     {
       name: 'FFE',

@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import PourQui from "@/components/global/Pourqui";
+import Breadcrumb from "@/components/global/Breadcrumb";
+import Hero from '../components/global/ImageHero';
+import ColorHero from "@/components/global/ColorHero";
 // --- ICONS (inline SVGs) ---
 const icons = {
   marque: (
@@ -211,33 +214,37 @@ const CoCreationComplete: React.FC = () => {
   const [sent, setSent] = useState(false);
 
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-white text-gray-900 pt-28">
       {/* HERO */}
-      <section className="relative min-h-[70vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/media/banner.png')" }}>
-        <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
-        <div className="relative z-10 text-center text-white px-4 py-24 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Solution de co-création complète</h1>
-          <p className="text-xl md:text-2xl font-medium max-w-2xl mx-auto mb-4">Votre idée devient un vêtement. De la première esquisse à la dernière couture.</p>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-90 mb-8">C’est la solution la plus ambitieuse : tout commence par votre vision. Nous concevons votre pièce intégralement, du style au patronage, du sourcing matières à la fabrication finale dans nos ateliers français.</p>
-          <Link to="/contact-devis" className="inline-block bg-cta-red hover:bg-primary-blue transition-all font-bold rounded-full px-8 py-4 uppercase text-lg shadow-lg">Demander un devis</Link>
-        </div>
-      </section>
+      <Hero
+        imageUrl="/media/banner.png"
+        title="Solution de co-création complète"
+        description={
+          <>
+            <p className="mb-4">Votre idée devient un vêtement. De la première esquisse à la dernière couture.
+            </p>
+            <p>
+              C’est la solution la plus ambitieuse : tout commence par votre vision. Nous concevons votre pièce intégralement, du style au patronage, du sourcing matières à la fabrication finale dans nos ateliers français.</p>
+          </>
+        }
+      />
+      <div className="max-w-[1200px] mx-auto px-6 py-12">
+        <Breadcrumb />
+        <ColorHero
+          bgColor="bg-cta-red"
+          title="Une pièce 100% conçue pour vous"
+          description={
+            <>
+              <p className="mb-4">Avec notre solution de co-création complète, chaque détail compte. Vous êtes au cœur du processus créatif.</p>
+              <p>
+                Nous travaillons main dans la main avec vous pour donner vie à votre vision, en intégrant votre identité visuelle à chaque étape de la conception.
+              </p>
+            </>
+          }
+        />
+      </div>
 
       {/* POUR QUI */}
-      <section className="bg-white py-16 md:py-24">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-12 text-center">Pour qui ?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {pourQui.map((seg, i) => (
-              <div key={i} className="bg-white border border-gray-200 rounded-xl p-8 flex flex-col items-center hover:shadow-lg transition-shadow duration-300">
-                {seg.icon}
-                <h3 className="font-semibold text-lg mb-2 text-primary-blue text-center">{seg.title}</h3>
-                <p className="text-gray-700 text-center">{seg.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* MÉTHODE */}
       <section className="bg-primary-blue text-white py-16 md:py-24">
@@ -344,63 +351,6 @@ const CoCreationComplete: React.FC = () => {
         </div>
       </section>
 
-      {/* FOOTER CTA FORM */}
-      <section className="bg-primary-blue text-white py-16 md:py-24">
-        <div className="max-w-2xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-8">Prêt à créer votre pièce unique ?</h2>
-          {sent ? (
-            <div className="text-xl font-semibold text-green-200">Merci, votre demande a bien été envoyée !</div>
-          ) : (
-            <form
-              className="space-y-4"
-              onSubmit={e => {
-                e.preventDefault();
-                setSent(true);
-              }}
-            >
-              <div className="flex flex-col md:flex-row gap-4">
-                <input
-                  type="text"
-                  required
-                  placeholder="Nom"
-                  className="flex-1 px-4 py-3 rounded-full text-gray-900 focus:outline-none"
-                  value={form.name}
-                  onChange={e => setForm(f => ({ ...f, name: e.target.value }))}
-                />
-                <input
-                  type="email"
-                  required
-                  placeholder="Email"
-                  className="flex-1 px-4 py-3 rounded-full text-gray-900 focus:outline-none"
-                  value={form.email}
-                  onChange={e => setForm(f => ({ ...f, email: e.target.value }))}
-                />
-              </div>
-              <input
-                type="text"
-                required
-                placeholder="Type de projet (ex: hoodie, veste, collection...)"
-                className="w-full px-4 py-3 rounded-full text-gray-900 focus:outline-none"
-                value={form.type}
-                onChange={e => setForm(f => ({ ...f, type: e.target.value }))}
-              />
-              <textarea
-                required
-                placeholder="Votre message"
-                className="w-full px-4 py-3 rounded-2xl text-gray-900 focus:outline-none min-h-[100px]"
-                value={form.message}
-                onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
-              />
-              <button
-                type="submit"
-                className="bg-cta-red hover:bg-white hover:text-cta-red transition-all font-bold rounded-full px-8 py-4 uppercase text-lg shadow-lg"
-              >
-                Démarrer mon projet
-              </button>
-            </form>
-          )}
-        </div>
-      </section>
     </div>
   );
 };

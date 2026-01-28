@@ -1,6 +1,7 @@
 import React from 'react'
-import PretHero from '../components/pretapersonnaliser/PretHero'
-import PretWho from '../components/pretapersonnaliser/PretWho'
+import Hero from '../components/global/ImageHero'
+import ColorHero from '@/components/global/ColorHero'
+import Pourqui from '../components/global/Pourqui'
 import PretCustomizations from '../components/pretapersonnaliser/PretCustomizations'
 import PretAdvantages from '../components/pretapersonnaliser/PretAdvantages'
 import PretWhy from '../components/pretapersonnaliser/PretWhy'
@@ -8,34 +9,49 @@ import PretGraphicStrip from '../components/pretapersonnaliser/PretGraphicStrip'
 import PretIconGrid from '../components/pretapersonnaliser/PretIconGrid'
 import PretMosaic from '../components/pretapersonnaliser/PretMosaic'
 import { Link } from 'react-router-dom'
+import Breadcrumb from '@/components/global/Breadcrumb'
+import ContactSection from '@/components/global/ContactSection'
 
 const PretAPersonnaliser: React.FC = () => {
   return (
     <main className="min-h-screen bg-white text-primary-blue pt-28">
-      <PretHero />
 
-      <PretGraphicStrip />
+      <Hero
+        imageUrl="media/pret-a-personnaliser/banner-pret-a-personnaliser.jpg"
+        title="Solution prêt-à-personnaliser"
+        description="Une façon rapide, fiable et responsable de proposer des vêtements à votre image : choisissez un modèle éprouvé, personnalisez l'identité visuelle et produisez en France."
+      />
+      <div className="max-w-[1200px] mx-auto px-6 py-12">
+        <Breadcrumb />
+        <ColorHero
+          bgColor="bg-cta-red"
+          title="Une collection déjà maîtrisée. Votre identité en plus."
+          description={<>
+            <p className="mb-4">Le prêt-à-personnaliser est la solution idéale si vous souhaitez aller vite, tout en conservant ce
+              qui fait la force d’un vêtement bien conçu : une coupe aboutie, une fabrication française
+              irréprochable et des matières responsables.</p>
+            <p>
+              Vous choisissez l’un de nos modèles.
+              Nous y intégrons votre identité visuelle.
+              Le résultat : une pièce élégante, durable, parfaitement alignée avec votre image.
+            </p>
+          </>}
+        />
 
-      <PretWho />
+        <Pourqui />
+        <PretGraphicStrip />
 
-      <PretIconGrid />
+        <PretIconGrid />
 
-      <PretCustomizations />
+        <PretCustomizations />
 
-      <PretMosaic />
 
-      <PretAdvantages />
+        <PretAdvantages />
 
-      <PretWhy />
+        <PretWhy />
 
-      <section className="max-w-[1200px] mx-auto px-6 py-12">
-        <h2 className="text-2xl font-bold mb-4">Prêt à démarrer ?</h2>
-        <p className="text-primary-blue/80">Parlez-nous de votre projet : quantités estimées, délai souhaité et usage prévu. Nous vous proposons la meilleure option sous 48h.</p>
-
-        <div className="mt-6">
-          <Link to="/contact-devis" className="inline-block bg-cta-red text-white px-6 py-3 rounded-full font-bold">Demander un devis</Link>
-        </div>
-      </section>
+        <ContactSection />
+      </div>
     </main>
   )
 }
