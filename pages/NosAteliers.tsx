@@ -1,3 +1,4 @@
+import PlainHero from "@/components/global/PlainHero";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -71,16 +72,7 @@ const NosAteliers: React.FC = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO */}
-      <section className="relative min-h-[60vh] flex items-center justify-center bg-center bg-cover" style={{ backgroundImage: "url('/media/atelier-hero.jpg')" }}>
-        <div className="absolute inset-0 bg-black/40" aria-hidden="true"></div>
-        <div className="relative z-10 text-center text-white px-4 py-24 flex flex-col items-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg">Nos ateliers textiles en France</h1>
-          <p className="text-xl md:text-2xl font-medium max-w-2xl mx-auto mb-4">Chaque atelier a une histoire. Votre pièce en bénéficiera.</p>
-          <p className="max-w-2xl mx-auto text-lg md:text-xl opacity-90 mb-8">Nous sélectionnons nos partenaires français pour leur expertise, leur rigueur et le respect des métiers textiles. Chaque étape est réalisée dans un atelier spécialisé, garantissant qualité, traçabilité et impact local positif.</p>
-          <Link to="/contact-devis" className="inline-block bg-cta-red hover:bg-primary-blue transition-all font-bold rounded-full px-8 py-4 uppercase text-lg shadow-lg">Demander un devis</Link>
-        </div>
-      </section>
-
+      <PlainHero imgUrl="../media/decoupe-tissu.jpg" title="Découvrez nos ateliers textiles en France" />
       {/* CARTE INTERACTIVE */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4">

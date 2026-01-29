@@ -12,10 +12,11 @@ import AuDelaTextileSection from "../components/engagements/AuDelaTextileSection
 import AmeliorationContinueSection from "../components/engagements/AmeliorationContinueSection";
 import TemoignagesClientsSection from "../components/engagements/TemoignagesClientsSection";
 import FooterEngagementsCTA from "../components/engagements/FooterEngagementsCTA";
+import PlainHero from "@/components/global/PlainHero";
 
 const NosEngagements: React.FC = () => (
   <main className="w-full">
-    <HeroEngagements />
+    <PlainHero imgUrl="../media/engagements-banner.jpg" title="Nos engagements pour une mode responsable et éthique" />
     <VueEnsembleEngagements />
     <ResponsabiliteSection />
     <DurabiliteSection />

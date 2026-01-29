@@ -10,12 +10,12 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ image, title, description, link }) => (
-  <article className="bg-primary-blue rounded-xl shadow-xl overflow-hidden flex flex-col h-[520px] transition-all hover:shadow-2xl hover:-translate-y-1" role="listitem">
+  <article className="bg-primary-blue  shadow-xl overflow-hidden flex flex-col h-[520px] transition-all  hover:-translate-y-1" role="listitem">
     <div className="h-1/2 w-full overflow-hidden">
       <img
         src={image}
         alt={title}
-        className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+        className="w-full h-full min-[1200px]:max-h-[240px] object-cover  "
       />
     </div>
     <div className="p-6 flex flex-col justify-between flex-1">
@@ -66,7 +66,7 @@ const OfferCards: React.FC = () => {
           Une solution pensée pour tous ceux qui veulent du textile de qualité.
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" role="list">
+        <div className="grid grid-cols-1 sm:grid-cols-2 min-[1200px]:grid-cols-4 gap-6" role="list">
           {cards.map((card, idx) => (
             <Card key={idx} {...card} />
           ))}

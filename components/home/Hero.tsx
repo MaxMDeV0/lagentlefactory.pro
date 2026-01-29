@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         alt="Bannière La Gentil Factory"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/0 to-black/20" aria-hidden="true"></div>
+      <div className="absolute inset-0 z-10 bg-black/20" aria-hidden="true"></div>
 
       <div className="relative z-20 text-white p-8 md:p-12 max-w-3xl mb-12 md:mb-20 ml-[15%]">
         <h1 className="font-extrabold text-4xl md:text-5xl lg:text-6xl leading-tight tracking-tight drop-shadow-lg">

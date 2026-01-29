@@ -30,7 +30,7 @@ const Clients: React.FC = () => {
   const projects = [
     {
       name: 'GT Logistics',
-      projectImg: 'media/homme-mariniere-lgf.png',
+      projectImg: 'media/gt-logistics-portrait.jpeg',
       logo: 'media/gt-logo.png'
     },
     {

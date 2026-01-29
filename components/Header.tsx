@@ -13,7 +13,7 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     // If we're not on the homepage, header should be white
-    if (location.pathname !== '/') {
+    if (location.pathname !== '/' && !(location.pathname.length >= 16 && location.pathname.slice(0, 16) === "/fabrication/nos")) {
       setScrolled(true);
       return;
     }
@@ -34,7 +34,8 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <Link to="/" className="inline-flex items-center">
-              <img src="./media/logo.svg" alt="La Gentle Factory" className="h-16 md:h-20 w-auto" />
+              {!scrolled ? <img src={`${import.meta.env.BASE_URL}media/logo.svg`} alt="La Gentle Factory" className="h-16 md:h-20 w-auto" /> : <img src={`${import.meta.env.BASE_URL}media/logo-noir.svg`} alt="La Gentle Factory" className="h-16 md:h-20 w-auto" />}
+
             </Link>
           </div>
 
@@ -59,11 +60,11 @@ const Header: React.FC = () => {
                   }}
                   className="inline-flex items-center"
                 >
-                  <button className="font-semibold">Notre offre</button>
+                  <button className="font-semibold h-20">Notre offre</button>
                 </div>
 
                 <div
-                  className={`absolute left-1/2 -translate-x-1/2 top-[calc(100%-20px)] w-[940px] rounded-lg shadow-lg transform transition-all duration-150 ${megaOpen ? 'opacity-100 pointer-events-auto translate-y-12' : 'opacity-0 pointer-events-none -translate-y-2'
+                  className={`absolute left-1/2 -translate-x-1/2 top-8 w-[940px]  shadow-lg transform transition-all duration-150 ${megaOpen ? 'opacity-100 pointer-events-auto translate-y-12' : 'opacity-0 pointer-events-none -translate-y-2'
                     }`}
                   onMouseEnter={() => {
                     if (closeTimer.current) {
@@ -80,7 +81,7 @@ const Header: React.FC = () => {
                   }}
                   style={{ backgroundColor: '#ffffff' }}
                 >
-                  <div className="p-6 grid grid-cols-4 gap-6 text-[#293279] text-sm">
+                  <div className="p-6 grid grid-cols-3 gap-6 text-[#293279] text-sm">
                     <div>
                       <h4 className="font-bold mb-2 uppercase">Faire fabriquer vos vêtements en France</h4>
                       <ul className="space-y-1">
@@ -100,7 +101,7 @@ const Header: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2 uppercase"><Link to="/nos-solutions">Nos solutions</Link></h4>
+                      <h4 className="font-bold mb-2 uppercase">Nos solutions</h4>
                       <ul className="space-y-1">
                         <li>
                           <Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link>
@@ -111,7 +112,7 @@ const Header: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2 uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h4>
+                      <h4 className="font-bold mb-2 uppercase">Fabrication &amp; savoir-faire</h4>
                       <ul className="space-y-1">
                         <li><Link to="/fabrication/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
                         <li><Link to="/fabrication/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
@@ -119,19 +120,19 @@ const Header: React.FC = () => {
                       </ul>
                     </div>
 
-                    <div>
+                    {/* <div>
                       <h4 className="font-bold mb-2 uppercase">Réalisations</h4>
                       <ul className="space-y-1">
                         <li>Études de cas (avant/après + photos)</li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </li>
 
 
               {/* Blog & Conseils dropdown */}
-              <li className="relative">
+              {/* <li className="relative">
                 <div
                   onMouseEnter={() => {
                     if (blogCloseTimer.current) {
@@ -178,7 +179,7 @@ const Header: React.FC = () => {
                     </ul>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
             </ul>
 
@@ -241,11 +242,11 @@ const Header: React.FC = () => {
             </button>
 
             <div className="pt-20 px-6 pb-8">
-              <nav>
+              <nav className="h-full">
                 <ul className="space-y-6">
                   <li>
                     <button
-                      className="w-full text-left text-xl font-semibold"
+                      className="w-full text-left text-xl font-semibold h-full"
                       onClick={() => setMegaOpen(prev => !prev)}
                       aria-expanded={megaOpen}
                     >
@@ -257,42 +258,42 @@ const Header: React.FC = () => {
                         <div>
                           <h5 className="font-bold uppercase">Faire fabriquer vos vêtements en France</h5>
                           <ul className="mt-2 space-y-1">
-                            <li><Link to="/marques-createurs" className="hover:underline">Pour les marques &amp; créateurs</Link></li>
-                            <li><Link to="/entreprises" className="hover:underline">Pour les entreprises</Link></li>
-                            <li><Link to="/boutiques" className="hover:underline">Pour les boutiques &amp; concept-stores</Link></li>
-                            <li><Link to="/institutions" className="hover:underline">Pour les institutions &amp; clubs</Link></li>
+                            <li><Link to="/marques-createurs" className="hover:underline" onClick={() => setMobileOpen(false)}>Pour les marques &amp; créateurs</Link></li>
+                            <li><Link to="/entreprises" className="hover:underline" onClick={() => setMobileOpen(false)}>Pour les entreprises</Link></li>
+                            <li><Link to="/boutiques" className="hover:underline" onClick={() => setMobileOpen(false)}>Pour les boutiques &amp; concept-stores</Link></li>
+                            <li><Link to="/institutions" className="hover:underline" onClick={() => setMobileOpen(false)}>Pour les institutions &amp; clubs</Link></li>
                           </ul>
                         </div>
 
                         <div>
-                          <h5 className="font-bold uppercase hover:cursor-pointer"><Link to="/nos-solutions">Nos solutions</Link></h5>
+                          <h5 className="font-bold uppercase hover:cursor-pointer">Nos solutions</h5>
                           <ul className="mt-2 space-y-1">
-                            <li><Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link></li>
-                            <li><Link to="/nos-solutions/semi-sur-mesure" className="hover:underline">Semi-sur-mesure</Link></li>
-                            <li><Link to="/nos-solutions/co-creation-complete" className="hover:underline">Co-création complète</Link></li>
+                            <li><Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline" onClick={() => setMobileOpen(false)}>Prêt-à-personnaliser</Link></li>
+                            <li><Link to="/nos-solutions/semi-sur-mesure" className="hover:underline" onClick={() => setMobileOpen(false)}>Semi-sur-mesure</Link></li>
+                            <li><Link to="/nos-solutions/co-creation-complete" className="hover:underline" onClick={() => setMobileOpen(false)}>Co-création complète</Link></li>
                           </ul>
                         </div>
 
                         <div>
-                          <h5 className="font-bold uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h5>
+                          <h5 className="font-bold uppercase">Fabrication &amp; savoir-faire</h5>
                           <ul className="mt-2 space-y-1">
-                            <li><Link to="/fabrication/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
-                            <li><Link to="/fabrication/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
-                            <li><Link to="/fabrication/nos-engagements" className="hover:underline">Nos engagements responsables</Link></li>
+                            <li><Link to="/fabrication/nos-ateliers" className="hover:underline" onClick={() => setMobileOpen(false)}>Nos ateliers en France</Link></li>
+                            <li><Link to="/fabrication/nos-matieres" className="hover:underline" onClick={() => setMobileOpen(false)}>Nos matières (bio, recyclé, technique)</Link></li>
+                            <li><Link to="/fabrication/nos-engagements" className="hover:underline" onClick={() => setMobileOpen(false)}>Nos engagements responsables</Link></li>
                           </ul>
                         </div>
 
-                        <div>
+                        {/* <div>
                           <h5 className="font-bold uppercase">Réalisations</h5>
                           <ul className="mt-2 space-y-1">
                             <li>Études de cas (avant/après + photos)</li>
                           </ul>
-                        </div>
+                        </div> */}
                       </div>
                     )}
                   </li>
 
-                  <li>
+                  {/* <li>
                     <button
                       className="w-full text-left text-lg font-semibold"
                       onClick={() => setBlogOpen(prev => !prev)}
@@ -311,10 +312,10 @@ const Header: React.FC = () => {
                         </ul>
                       </div>
                     )}
-                  </li>
+                  </li> */}
 
                   <li>
-                    <a href="#contact" className="inline-block bg-[#96101C] text-white px-5 py-3 rounded-full font-semibold">
+                    <a href="#contact" className="inline-block bg-[#96101C] text-white px-5 py-3  font-semibold">
                       Demander un devis
                     </a>
                   </li>

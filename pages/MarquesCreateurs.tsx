@@ -1,3 +1,4 @@
+import H2Mark from '../components/global/H2Mark';
 import React from 'react';
 import Hero from '@/components/global/ColorHero';
 import Breadcrumb from '@/components/global/Breadcrumb';
@@ -37,7 +38,7 @@ de A à Z.'
         <Cards title='Trois façons de créer votre pièce' />
 
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4"><mark className="bg-[#293279] text-white p-1">Une fabrication française maîtrisée</mark></h2>
+          <H2Mark>Une fabrication française maîtrisée</H2Mark>
           <p className="text-primary-blue/80 mb-6">
             Nos ateliers partenaires sont basés en France et respectent des standards élevés de qualité et de
             conformité sociale. Nous privilégions des matières locales et responsables (coton bio, fibres recyclées,

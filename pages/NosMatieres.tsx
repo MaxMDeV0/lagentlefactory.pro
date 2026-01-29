@@ -14,6 +14,7 @@ import ProcessSelectionSection from "../components/matieres/ProcessSelectionSect
 import TemoignagesMatieresSection from "../components/matieres/TemoignagesMatieresSection";
 import ImpactMatieresSection from "../components/matieres/ImpactMatieresSection";
 import FooterMatieresCTA from "../components/matieres/FooterMatieresCTA";
+import PlainHero from "@/components/global/PlainHero";
 
 // --- ICONS ---
 const icons = {
@@ -66,6 +67,7 @@ const NosMatieres: React.FC = () => {
   };
   return (
     <div className="bg-white text-gray-900">
+      <PlainHero imgUrl="../media/laine-mouton.jpg" title="Découvrez nos matières responsables" />
       <HeroMatieres />
       <NavMatieres active={familleActive} onSelect={setFamilleActive} icons={icons} />
       <CotonBioSection />

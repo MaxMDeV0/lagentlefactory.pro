@@ -1,10 +1,7 @@
 revenir en haut de la page en cliquant sur le logo
-opacité du header
-tous ceux qui redsection espace
+numerotation 3 solutions
 menu mobile enlever
-logo aide a l'insertion red section
-fil d'ariane
-pas de radius sur les images
+line height titre mobile
 
 - page marque et createurs
 photo pour la fabrication francaise
@@ -18,7 +15,4 @@ contact
 lien vers le site marchand
 inscription a la news letter
 
-
--page atelier
-image pleine pour le hero
-avec 
+factoriser les boutons

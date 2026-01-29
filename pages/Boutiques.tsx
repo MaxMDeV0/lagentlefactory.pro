@@ -1,3 +1,4 @@
+import H2Mark from '../components/global/H2Mark';
 
 import React from 'react';
 import Section from '@/components/global/Section';
@@ -47,7 +48,7 @@ const Boutiques: React.FC = () => {
         />
         <Cards title="Trois solutions pour développer votre pièce" />
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6"><mark className="bg-[#293279] text-white p-1">Fabriqué en France, pour conserver votre exigence</mark></h2>
+          <H2Mark>Fabriqué en France, pour conserver votre exigence</H2Mark>
           <div className="mb-4 text-primary-blue/80">Vos pièces sont confectionnées dans nos ateliers français : Vosges, Normandie, Hauts-de-France.</div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
             <div className="p-4 border rounded-lg flex flex-col items-center text-center bg-white">

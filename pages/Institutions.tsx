@@ -1,3 +1,4 @@
+import H2Mark from '../components/global/H2Mark';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import AccentSectionA from '../components/institutions/AccentSectionA';
@@ -61,7 +62,7 @@ const Institutions: React.FC = () => {
 
         <section className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div>
-            <h3 className="text-xl font-bold mb-3">Solutions adaptées</h3>
+            <H2Mark>Solutions adaptées</H2Mark>
             <p className="text-primary-blue/80 mb-4">
               Selon vos besoins, nous proposons plusieurs formats :
             </p>
@@ -91,7 +92,7 @@ const Institutions: React.FC = () => {
         </div>
 
         <section className="mb-12">
-          <h3 className="text-xl font-bold mb-3">Fabrication & savoir-faire</h3>
+          <H2Mark>Fabrication & savoir-faire</H2Mark>
           <p className="text-primary-blue/80 leading-relaxed mb-3">
             Nous fabriquons en France, dans des ateliers sélectionnés pour leur expertise : tricotage, teinture et confection
             répartis sur plusieurs régions (Vosges, Chessy-les-Mines, Roubaix). Cette proximité nous permet de maîtriser
@@ -104,7 +105,7 @@ const Institutions: React.FC = () => {
         </section>
 
         <section className="mb-12">
-          <h3 className="text-xl font-bold mb-3">Processus en 4 étapes</h3>
+          <H2Mark>Processus en 4 étapes</H2Mark>
           <ol className="list-decimal pl-6 text-primary-blue/80 space-y-3">
             <li>Premier échange et cadrage du projet (objectifs, volumes, budget).</li>
             <li>Proposition de solution (prêt-à-personnaliser / semi-sur-mesure / co-création) et devis estimatif.</li>
@@ -114,7 +115,7 @@ const Institutions: React.FC = () => {
         </section>
 
         <section className="mb-12">
-          <h3 className="text-xl font-bold mb-3">Exemples & réalisations</h3>
+          <H2Mark>Exemples & réalisations</H2Mark>
           <p className="text-primary-blue/80 leading-relaxed mb-4">
             Nous avons accompagné des clubs et institutions dans la création de lignes pérennes : hoodies résistants,
             t-shirts de performance, gammes cérémonielles et vestiaires techniques. Nos collaborations favorisent la
@@ -137,7 +138,7 @@ const Institutions: React.FC = () => {
         </section>
 
         <section className="mb-12">
-          <h3 className="text-xl font-bold mb-3">Durabilité & engagements</h3>
+          <H2Mark>Durabilité & engagements</H2Mark>
           <p className="text-primary-blue/80 leading-relaxed mb-3">
             Au-delà du design et de la performance, nous veillons à réduire l'impact environnemental : sélection
             de fibres responsables, optimisation des coupes pour limiter les chutes, et priorisation de fournisseurs
