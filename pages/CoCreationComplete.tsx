@@ -217,7 +217,7 @@ const CoCreationComplete: React.FC = () => {
     <div className="bg-white text-gray-900 pt-28">
       {/* HERO */}
       <Hero
-        imageUrl="/media/banner.png"
+        imageUrl={(import.meta.env.BASE_URL || '') + 'media/decoupe-tissu.jpg'}
         title="Solution de co-création complète"
         description={
           <>
@@ -247,28 +247,72 @@ const CoCreationComplete: React.FC = () => {
       {/* POUR QUI */}
 
       {/* MÉTHODE */}
-      <section className="bg-primary-blue text-white py-16 md:py-24">
+      <section className="w-full bg-gray-50 py-16">
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-12 text-center">Notre méthode en co-création</h2>
-          <div className="relative flex flex-col items-center">
-            <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-cta-red rounded-full hidden md:block" style={{ transform: 'translateX(-50%)' }}></div>
-            <ol className="relative z-10 w-full">
-              {timeline.map((step, i) => (
-                <li key={i} className="flex items-start mb-12 group fade-in-up">
-                  <div className="flex flex-col items-center mr-8">
-                    <span className="flex items-center justify-center w-12 h-12 rounded-full bg-white border-4 border-cta-red text-cta-red font-bold text-xl shadow-lg mb-2">{i + 1}</span>
-                    <span className="hidden md:block w-1 h-full bg-cta-red" style={{ minHeight: i === timeline.length - 1 ? 0 : 64 }}></span>
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-center mb-2">
-                      {step.icon}
-                      <h3 className="ml-3 text-xl font-bold text-white">{step.title}</h3>
-                    </div>
-                    <p className="text-white/90 mb-2">{step.desc}</p>
-                  </div>
-                </li>
-              ))}
-            </ol>
+          <h2 className="text-2xl md:text-3xl font-bold font-sans mb-8 text-primary-blue">Notre méthode en co-création</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Colonne 1 */}
+            <div className="flex flex-col gap-6">
+              {/* 1 */}
+              <div className="flex items-start gap-4 bg-white p-6">
+                <span className="text-cta-red font-extrabold text-2xl mr-2">1</span>
+                <div>
+                  <h3 className="text-base font-bold text-primary-blue mb-1 font-sans">Cadrage du projet</h3>
+                  <p className="text-primary-blue/90 text-sm">Usages, univers, volumes, contraintes : nous posons les bases solides de votre projet.</p>
+                </div>
+              </div>
+              {/* 2 (mise en avant cta-red) */}
+              <div className="flex items-start gap-4 bg-cta-red p-6">
+                <span className="text-white font-extrabold text-2xl mr-2">2</span>
+                <div>
+                  <h3 className="text-base font-bold text-white mb-1 font-sans">Style & construction</h3>
+                  <p className="text-white/90 text-sm">Moodboard, croquis, choix techniques pour donner vie à votre idée.</p>
+                </div>
+              </div>
+              {/* 3 */}
+              <div className="flex items-start gap-4 bg-white p-6">
+                <span className="text-cta-red font-extrabold text-2xl mr-2">3</span>
+                <div>
+                  <h3 className="text-base font-bold text-primary-blue mb-1 font-sans">Patronage & mise au point</h3>
+                  <p className="text-primary-blue/90 text-sm">Création du patron sur-mesure et ajustements pour une coupe parfaite.</p>
+                </div>
+              </div>
+              {/* 4 */}
+              <div className="flex items-start gap-4 bg-white p-6">
+                <span className="text-cta-red font-extrabold text-2xl mr-2">4</span>
+                <div>
+                  <h3 className="text-base font-bold text-primary-blue mb-1 font-sans">Sélection matières</h3>
+                  <p className="text-primary-blue/90 text-sm">Coton bio, recyclé, technique, lin français… sélection adaptée à votre projet.</p>
+                </div>
+              </div>
+            </div>
+            {/* Colonne 2 */}
+            <div className="flex flex-col gap-6">
+              {/* 5 */}
+              <div className="flex items-start gap-4 bg-white p-6">
+                <span className="text-cta-red font-extrabold text-2xl mr-2">5</span>
+                <div>
+                  <h3 className="text-base font-bold text-primary-blue mb-1 font-sans">Prototypage & ajustements</h3>
+                  <p className="text-primary-blue/90 text-sm">Réalisation du prototype, essayages et ajustements pour valider chaque détail.</p>
+                </div>
+              </div>
+              {/* 6 (mise en avant primary-blue) */}
+              <div className="flex items-start gap-4 bg-primary-blue p-6">
+                <span className="text-white font-extrabold text-2xl mr-2">6</span>
+                <div>
+                  <h3 className="text-base font-bold text-white mb-1 font-sans">Validation finale</h3>
+                  <p className="text-white/90 text-sm">Contrôle qualité, validation du modèle et des finitions avant lancement.</p>
+                </div>
+              </div>
+              {/* 7 */}
+              <div className="flex items-start gap-4 bg-white p-6">
+                <span className="text-cta-red font-extrabold text-2xl mr-2">7</span>
+                <div>
+                  <h3 className="text-base font-bold text-primary-blue mb-1 font-sans">Fabrication française</h3>
+                  <p className="text-primary-blue/90 text-sm">Production en petites ou moyennes séries dans nos ateliers français.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -290,7 +334,7 @@ const CoCreationComplete: React.FC = () => {
       </section>
 
       {/* CAS PRATIQUES */}
-      <section className="bg-gray-50 py-16 md:py-24">
+      {/* <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-extrabold text-primary-blue mb-12 text-center">Exemples de projets en co-création</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -306,7 +350,7 @@ const CoCreationComplete: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* POURQUOI CHOISIR */}
       <section className="bg-cta-red text-white py-16 md:py-24">
@@ -319,8 +363,8 @@ const CoCreationComplete: React.FC = () => {
             ))}
           </div>
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-            <Link to="/realisations" className="bg-white text-cta-red font-bold px-8 py-4 rounded-full shadow-lg hover:bg-primary-blue hover:text-white transition-colors text-lg uppercase">Voir nos réalisations</Link>
-            <Link to="/contact-devis" className="bg-primary-blue text-white font-bold px-8 py-4 rounded-full shadow-lg hover:bg-white hover:text-primary-blue transition-colors text-lg uppercase">Demander un devis</Link>
+            <a href="#realisations" className="bg-white text-cta-red font-bold px-8 py-4 rounded-full shadow-lg hover:bg-primary-blue hover:text-white transition-colors text-lg uppercase">Voir nos réalisations</a>
+            <a href="#contact" className="bg-primary-blue text-white font-bold px-8 py-4 rounded-full shadow-lg hover:bg-white hover:text-primary-blue transition-colors text-lg uppercase">Demander un devis</a>
           </div>
         </div>
       </section>

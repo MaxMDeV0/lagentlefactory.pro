@@ -21,7 +21,7 @@ export default function SolutionsCards({ title }: { title: string }) {
           </article>
 
           <article className="p-6 border rounded-lg bg-white relative" aria-labelledby="semi-title">
-            <span className="absolute -top-4 -left-4 bg-primary-blue text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold shadow">2</span>
+            <span className="absolute -top-4 -left-4 bg-white text-primary-blue border border-primary-blue rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold shadow">2</span>
             <h3 id="semi-title" className="text-xl font-semibold">Semi-sur-mesure</h3>
             <p className="mt-3 text-sm text-primary-blue/80">Ajustez un modèle Gentle : matières, couleurs, finitions. Un excellent compromis pour des vêtements corporate différenciants sans repartir de zéro.</p>
             <ul className="mt-3 text-sm list-disc pl-5 text-primary-blue/80">
@@ -32,7 +32,7 @@ export default function SolutionsCards({ title }: { title: string }) {
           </article>
 
           <article className="p-6 border rounded-lg bg-white relative" aria-labelledby="co-title">
-            <span className="absolute -top-4 -left-4 bg-primary-blue text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold shadow">3</span>
+            <span className="absolute -top-4 -left-4 bg-cta-red text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold shadow">3</span>
             <h3 id="co-title" className="text-xl font-semibold">Co-création complète</h3>
             <p className="mt-3 text-sm text-primary-blue/80">Vous avez une vision forte ? Nous la concrétisons : du moodboard au prototypage, jusqu'à la fabrication finale en France. Chaque détail est pensé avec vous.</p>
             <ul className="mt-3 text-sm list-disc pl-5 text-primary-blue/80">

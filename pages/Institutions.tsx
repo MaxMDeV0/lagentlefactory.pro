@@ -157,7 +157,7 @@ const Institutions: React.FC = () => {
 
         <div className="mt-8 flex flex-col md:flex-row items-center gap-4">
           <Link to="/" className="inline-block text-primary-blue/80 underline">Retour à l'accueil</Link>
-          <a href="/#devis" className="inline-block bg-[#96101C] text-white px-6 py-3 rounded-full">Demander un devis</a>
+          <a href="#contact" className="inline-block bg-[#96101C] text-white px-6 py-3 rounded-full">Demander un devis</a>
         </div>
       </div>
     </main>

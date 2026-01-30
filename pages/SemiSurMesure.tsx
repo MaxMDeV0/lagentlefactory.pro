@@ -14,7 +14,7 @@ import PourQui from "@/components/global/Pourqui";
 const SemiSurMesure: React.FC = () => (
   <main className="bg-white text-primary-blue pt-28">
     <Hero
-      imageUrl="media/semi-sur-mesure/banner-semi-sur-mesure.jpg"
+      imageUrl={(import.meta.env.BASE_URL || '') + 'media/ACCESSOIRES_SATAB_SAINT JUST MALMONT_MB.jpg'}
       title="Solution semi-sur-mesure"
       description="Alliez personnalisation avancée et rapidité de production avec notre solution semi-sur-mesure : adaptez des modèles éprouvés à votre identité visuelle tout en bénéficiant d'une fabrication locale et responsable."
     />

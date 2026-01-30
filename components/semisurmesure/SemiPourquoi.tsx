@@ -14,8 +14,8 @@ const SemiPourquoi = () => (
       <li>Délais et budget maîtrisés</li>
     </ul>
     <div className="mt-10 flex flex-wrap gap-4">
-      <Link to="/contact-devis" className="bg-cta-red text-white px-6 py-3 rounded-full font-bold hover:bg-primary-blue transition">Demander un devis</Link>
-      <Link to="/solutions/co-creation" className="bg-primary-blue text-white px-6 py-3 rounded-full font-bold hover:bg-cta-red transition">Découvrir la co-création</Link>
+      <a href="#contact" className="bg-cta-red text-white px-6 py-3 rounded-full font-bold hover:bg-primary-blue transition">Demander un devis</a>
+      <Link to="/nos-solutions/co-creation-complete" className="bg-primary-blue text-white px-6 py-3 rounded-full font-bold hover:bg-cta-red transition">Découvrir la co-création</Link>
     </div>
   </section>
 );

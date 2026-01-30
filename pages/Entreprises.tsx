@@ -71,28 +71,40 @@ fabriqué en France.' description={
           {/* <EnterpriseProcess /> */}
 
           {/* Large visual gallery to illustrate ateliers, produits et séries */}
-          <div className="grid grid-cols-1 lg:grid-cols-[50%_50%] gap-6 w-full max-w-[1128px] mb-10">
+          <section className="mb-10">
+            <div className="grid grid-cols-1 lg:grid-cols-[50%_50%] gap-6 w-full max-w-[1128px] ">
 
-            {/* Rouge */}
-            <div className=" w-full h-full aspect-square   " >
-              <img src="./media/1.jpg" alt="Rouge" className="object-cover w-full h-full" />
-            </div>
 
-            {/* Colonne droite */}
-            <div className="grid grid-cols-1 md:grid-cols-[50%_50%] gap-6 w-full ">
-
-              {/* Bleu + Vert */}
-              <div className="flex flex-col gap-6">
-                <div className="bg-blue-100 w-full h-[50%]  aspect-square" >              <img src="./media/2.jpg" alt="Rouge" className="object-cover w-full h-full" />
-                </div>
-                <div className="bg-green-100 w-full h-[50%]  aspect-square " ><img src="./media/3.jpg" alt="Rouge" className="object-cover w-full h-full" /></div>
+              {/* Rouge */}
+              <div className=" w-full h-full aspect-square   " >
+                <img src={(import.meta.env.BASE_URL || '') + 'media/gt-logistics-paysage.jpeg'} alt="Logistique textile" className="object-cover w-full h-full" />
               </div>
 
-              {/* Jaune */}
-              <div className="bg-yellow-100 w-[calc(100%-24px)] h-[100%]  " ><img src="./media/4.jpg" alt="Rouge" className="object-cover w-full h-full" /></div>
+              {/* Colonne droite */}
+              <div className="grid grid-cols-1 md:grid-cols-[50%_50%] gap-6 w-full ">
 
+
+                {/* Bleu + Vert */}
+                <div className="flex flex-col gap-6">
+                  <div className="bg-blue-100 w-full h-[calc(50%-12px)]  aspect-square" >
+                    <img src={(import.meta.env.BASE_URL || '') + 'media/TEINTURE_MAT_CHESSY.jpg'} alt="Teinture" className="object-cover w-full h-full" />
+                  </div>
+                  <div className="bg-green-100 w-full h-[calc(50%-12px)]  aspect-square ">
+                    <img src={(import.meta.env.BASE_URL || '') + 'media/ACCESSOIRES_SATAB_SAINT JUST MALMONT_MB.jpg'} alt="Accessoires" className="object-cover w-full h-full" />
+                  </div>
+                </div>
+
+
+                {/* Jaune */}
+                <div className="bg-yellow-100 w-[calc(100%-24px)] h-[100%]  ">
+                  <img src={(import.meta.env.BASE_URL || '') + 'media/patron-atelier.jpg'} alt="Patron atelier" className="object-cover w-full h-full" />
+                </div>
+
+              </div>
             </div>
-          </div>
+
+
+          </section>
 
           <section className="mb-10 bg-[#96101C] text-white p-6">
             <h2 className="text-3xl font-bold mb-8 text-center">Pourquoi les entreprises choisissent notre savoir-faire</h2>

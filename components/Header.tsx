@@ -13,7 +13,7 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     // If we're not on the homepage, header should be white
-    if (location.pathname !== '/' && !(location.pathname.length >= 16 && location.pathname.slice(0, 16) === "/fabrication/nos")) {
+    if (location.pathname !== '/' && !(location.pathname.length >= 12 && location.pathname.slice(0, 12) === "/fabrication")) {
       setScrolled(true);
       return;
     }
@@ -101,7 +101,7 @@ const Header: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2 uppercase">Nos solutions</h4>
+                      <h4 className="font-bold mb-2 uppercase"><Link to="/nos-solutions">Nos solutions</Link></h4>
                       <ul className="space-y-1">
                         <li>
                           <Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline">Prêt-à-personnaliser</Link>
@@ -112,7 +112,7 @@ const Header: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-bold mb-2 uppercase">Fabrication &amp; savoir-faire</h4>
+                      <h4 className="font-bold mb-2 uppercase"><Link to="/fabrication">Fabrication &amp; savoir-faire</Link></h4>
                       <ul className="space-y-1">
                         <li><Link to="/fabrication/nos-ateliers" className="hover:underline">Nos ateliers en France</Link></li>
                         <li><Link to="/fabrication/nos-matieres" className="hover:underline">Nos matières (bio, recyclé, technique)</Link></li>
@@ -266,7 +266,7 @@ const Header: React.FC = () => {
                         </div>
 
                         <div>
-                          <h5 className="font-bold uppercase hover:cursor-pointer">Nos solutions</h5>
+                          <h5 className="font-bold uppercase hover:cursor-pointer"><Link to="/nos-solutions" onClick={() => setMobileOpen(false)}>Nos solutions</Link></h5>
                           <ul className="mt-2 space-y-1">
                             <li><Link to="/nos-solutions/pret-a-personnaliser" className="hover:underline" onClick={() => setMobileOpen(false)}>Prêt-à-personnaliser</Link></li>
                             <li><Link to="/nos-solutions/semi-sur-mesure" className="hover:underline" onClick={() => setMobileOpen(false)}>Semi-sur-mesure</Link></li>
@@ -275,7 +275,7 @@ const Header: React.FC = () => {
                         </div>
 
                         <div>
-                          <h5 className="font-bold uppercase">Fabrication &amp; savoir-faire</h5>
+                          <h5 className="font-bold uppercase"><Link to="/fabrication" onClick={() => setMobileOpen(false)}>Fabrication &amp; savoir-faire</Link></h5>
                           <ul className="mt-2 space-y-1">
                             <li><Link to="/fabrication/nos-ateliers" className="hover:underline" onClick={() => setMobileOpen(false)}>Nos ateliers en France</Link></li>
                             <li><Link to="/fabrication/nos-matieres" className="hover:underline" onClick={() => setMobileOpen(false)}>Nos matières (bio, recyclé, technique)</Link></li>

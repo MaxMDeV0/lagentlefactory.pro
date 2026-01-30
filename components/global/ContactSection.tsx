@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 
 export default function ContactSection() {
   return (
@@ -7,7 +7,7 @@ export default function ContactSection() {
       <p className="text-primary-blue/80">Parlez-nous de votre projet : quantités estimées, délai souhaité et usage prévu. Nous vous proposons la meilleure option sous 48h.</p>
 
       <div className="mt-6">
-        <Link to="/contact-devis" className="inline-block bg-cta-red text-white px-6 py-3 rounded-full font-bold">Demander un devis</Link>
+        <a href="#contact" className="inline-block bg-cta-red text-white px-6 py-3 rounded-full font-bold">Demander un devis</a>
       </div>
     </section>
   )

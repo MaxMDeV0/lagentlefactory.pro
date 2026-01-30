@@ -31,8 +31,8 @@ const FooterGlobal: React.FC = () => (
       <nav className="m-auto  flex flex-col items-start text-md font-extrabold tracking-tight uppercase h">
         <Link to="/mentions-legales" className="hover:underline text-white/90">Mentions légales</Link>
         <Link to="/politique-confidentialite" className="hover:underline text-white/90">Politique de confidentialité</Link>
-        <a href="/plan-site" className="hover:underline text-white/90">Plan du site</a>
-        <a href="/contact" className="hover:underline text-white/90">Contact</a>
+        <a href="#" className="hover:underline text-white/90">Plan du site</a>
+        <a href="#contact" className="hover:underline text-white/90">Contact</a>
         <a href="https://www.lagentlefactory.com/" className="hover:underline text-white/90" target="_blank" rel="noopener noreferrer">Site marchand</a>
       </nav>
       {/* Colonne réseaux sociaux */}

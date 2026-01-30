@@ -17,7 +17,7 @@ const PretAPersonnaliser: React.FC = () => {
     <main className="min-h-screen bg-white text-primary-blue pt-28">
 
       <Hero
-        imageUrl="media/pret-a-personnaliser/banner-pret-a-personnaliser.jpg"
+        imageUrl={(import.meta.env.BASE_URL || '') + 'media/Confection_AFS_EPAGNY_2.jpg'}
         title="Solution prêt-à-personnaliser"
         description="Une façon rapide, fiable et responsable de proposer des vêtements à votre image : choisissez un modèle éprouvé, personnalisez l'identité visuelle et produisez en France."
       />
